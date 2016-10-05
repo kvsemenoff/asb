@@ -1,0 +1,117 @@
+@import url(reset.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
+@import url(fonts.css);
+.body {
+  font-family: "OpenSans-Regular";
+  font-size: 14px; }
+
+.clear {
+  clear: both; }
+
+.center {
+  text-align: center;
+  margin: 0 auto; }
+
+.ho-header-top {
+  width: 100%;
+  padding: 25px 0px;
+  border-top: 6px solid #faad1e; }
+  .ho-header-top .ho-header-title {
+    color: #2e2f30;
+    font-family: "OpenSans-Regular";
+    font-size: 14px;
+    letter-spacing: .02em; }
+    .ho-header-top .ho-header-title strong {
+      font-family: "OpenSans-Semibold"; }
+  .ho-header-top a {
+    color: #0099cc;
+    text-decoration: underline;
+    font-size: 14px;
+    letter-spacing: .02em;
+    font-family: "OpenSans-Regular"; }
+  .ho-header-top a:hover {
+    text-decoration: none; }
+  .ho-header-top .soc-block {
+    display: table;
+    width: 300px;
+    padding-left: 25px; }
+    .ho-header-top .soc-block .soc-block_item {
+      display: table-cell;
+      vertical-align: middle;
+      padding-right: 5px; }
+  .ho-header-top .soc {
+    display: inline-block; }
+    .ho-header-top .soc a {
+      display: inline-block;
+      width: 21px;
+      height: 21px;
+      box-sizing: border-box;
+      text-align: center;
+      height: 21px;
+      border: 2px solid #000;
+      border-radius: 3px;
+      color: #000;
+      text-decoration: none; }
+    .ho-header-top .soc a:hover {
+      background: #fab226;
+      border: 2px solid #fab226;
+      color: #fff; }
+  .ho-header-top .soc-big {
+    display: inline-block;
+    padding-top: 15px; }
+    .ho-header-top .soc-big a {
+      display: inline-block;
+      width: 37px;
+      height: 37px;
+      box-sizing: border-box;
+      text-align: center;
+      height: 37px;
+      border: 2px solid #000;
+      border-radius: 3px;
+      color: #000;
+      font-size: 25px;
+      text-decoration: none; }
+    .ho-header-top .soc-big a:hover {
+      background: #fab226;
+      border: 2px solid #fab226;
+      color: #fff; }
+  .ho-header-top .sc-bg {
+    padding-left: 50px; }
+  .ho-header-top .search-box {
+    padding-top: 13px; }
+    .ho-header-top .search-box form {
+      display: block;
+      position: relative;
+      border-radius: 3px;
+      width: 100%;
+      height: 39px;
+      border: 3px solid #cbd1d6;
+      box-sizing: border-box; }
+      .ho-header-top .search-box form input[type="text"] {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding: 0px 17px;
+        border: none;
+        box-sizing: border-box;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        font-size: 17px;
+        color: #97a3ad;
+        max-height: 100%;
+        max-width: 100%;
+        font-family: "OpenSans-Semibold"; }
+      .ho-header-top .search-box form input[type="submit"] {
+        position: absolute;
+        z-index: 50;
+        width: 17px;
+        height: 17px;
+        border: none;
+        top: 10px;
+        right: 7px;
+        background: url(../img/lupa.png) no-repeat top center; }
+
+/*# sourceMappingURL=style.css.map */
