@@ -1,8 +1,227 @@
-@import "reset.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+/*select*/
+.az-select{
+	border: 2px solid #cbd1d6;
+	position: relative;
+	cursor: pointer;
+	select{
+		height: 36px;
+		width: 100%;
+		border: none;
+		background: transparent;
+		outline: none;
+		padding: 0 15px;
+		letter-spacing: 0.02em;
+		font-family: "OpenSans-Semibold";
+		font-size: 14px;
+		cursor: pointer;
+		-webkit-appearance: none;
+        -moz-appearance: none;
+    }
+    select::-ms-expand {
+        display: none;
+    }
+    .az-options{
+    	display: none;
+    	top: 100%;
+    	left: 0px;
+    	width: 100%;
+    	position: absolute;
+    	padding: 0 15px;
+    	background: rgba(0,0,0,0.8);
+    	border-radius: 2px;
+	    z-index: 3;
+    	div[data-val]{
+			font-size: 16px;
+			font-family: "OpenSans-Semibold";
+			color: #fff;
+			line-height: 30px;
+			letter-spacing: 0.02em;
+			cursor: pointer;
+    	}
+    }
+}
+.az-select:before{
+	content: '';
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	right: 15px;
+	width: 13px;
+	height: 8px;
+	background: url(../img/select-arrow.png) no-repeat top left;
+	z-index: -1;
+}
+/*select*/
+
+h2{
+	font-size: 28px;
+	font-family: "OpenSans-Semibold";
+	text-transform: uppercase;
+	color: #e09b1b;
+	letter-spacing: 0.02em;
+	margin-bottom: 30px;
+}
+
+/*table*/
+.span-table{
+	font-family: "OpenSans-Regular";
+	font-size: 20px;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	display: block;
+}
+.az-table{
+	width: 100%;
+	td{
+		padding: 10px 0px;
+	}
+	tr:nth-child(2n+1){
+		background: #eef3f5;
+	}
+}
+.ticon1{
+	display: inline-block;
+	width: 14px;
+	height: 18px;
+	background: url(../img/az-timg1.png) no-repeat top left;
+	cursor: pointer;
+	vertical-align: middle;
+	margin: 0 5px;
+	position: relative;
+	.az-tpopup{
+		display: none;
+	}
+}
+.ticon1:hover{
+	background: url(../img/az-timg1-hover.png) no-repeat top left;
+	.az-tpopup{
+		position: absolute;
+		display: block;
+		bottom: calc(100% + 10px);
+		right: -12px;
+		padding: 20px;
+		min-width: 218px;
+		border-radius: 2px;
+		background: rgba(0,0,0,0.8);
+		text-align: left;
+		.az-title{
+			display: block;
+			font-family: "OpenSans-Semibold";
+			font-size: 16px;
+			color: #fff;
+			letter-spacing: 0.02em;
+			margin-bottom: 25px;
+		}
+		.az-text{
+			display: block;
+			font-family: "OpenSans-Italic";
+			font-size: 14px;
+			color: #fff;
+			letter-spacing: 0.02em;
+		}
+	}
+}
+.ticon1:hover:before{
+	content: '';
+	position: absolute;
+	display: block;
+	bottom: calc(100% + 3px);
+	right: 50%;
+	transform: translate(50%, 0);
+	width: 0px;
+	height: 0px;
+	border-top: 7px solid rgba(0,0,0,0.8);
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+}
+.ticon2{
+	display: inline-block;
+	width: 18px;
+	height: 14px;
+	background: url(../img/az-timg2.png) no-repeat top left;
+	cursor: pointer;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+.ticon3{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../img/az-timg3.png) no-repeat top left;
+	cursor: pointer;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+.ticon4{
+	display: inline-block;
+	width: 14px;
+	height: 18px;
+	background: url(../img/az-timg4.png) no-repeat top left;
+	cursor: pointer;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+
+.az-table_style{
+	td:first-child{
+		text-align: center;
+		font-family: "OpenSans-Regular";
+		font-size: 14px;
+		color: #97a3ad;
+		letter-spacing: 0.02em;
+	}
+	td:nth-child(2){
+		text-align: left;
+		font-family: "OpenSans-Semibold";
+		font-size: 14px;
+		color: #000;
+		letter-spacing: 0.02em;
+	}
+	td:nth-child(3){
+		text-align: left;
+		font-family: "OpenSans-Bold";
+		font-size: 14px;
+		color: #97a3ad;
+		letter-spacing: 0.02em;
+		strong{
+			color: #f37527;
+		}
+	}
+	td:last-child{
+		text-align: center;
+		strong{
+			font-family: "OpenSans-Semibold";
+			font-size: 14px;
+			color: #f32727;
+			letter-spacing: 0.02em;
+		}
+		
+	}
+}
+
+
+
+/*table*/
+.az-tlink{
+	font-family: "OpenSans-Regular";
+	font-size: 13px;
+	color: #0099cc;
+	letter-spacing: 0.02em;
+}
+.az-center{
+	text-align: center;
+}
+.az-left{
+	text-align: left;
+}
+
+/*margins*/
+.az-margin-top20{
+	margin-top: 20px;
+	display: block;
+}
+/*margins*/
 
 
 @media only screen and (min-width : 320px) {
