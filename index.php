@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная страница</title>
+	<title>Главная</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -14,13 +14,6 @@
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css">
-
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" />
-	
-
-	<meta content="telephone=no" name="format-detection"/>
-	<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-	
 
 </head>
 <body>
@@ -40,16 +33,13 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	<?php require_once('includes/results.php'); ?>
+	<?php require_once('includes/foto.php'); ?>
+	<?php require_once('includes/dva_bultozavra.php'); ?>
+	<?php require_once('includes/divisiony.php'); ?>
+	<?php require_once('includes/liders.php'); ?>
+	<?php require_once('includes/video.php'); ?>
+	<?php require_once('includes/slider.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	
