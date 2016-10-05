@@ -26,7 +26,8 @@
     position: absolute;
     padding: 0 15px;
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 2px; }
+    border-radius: 2px;
+    z-index: 3; }
     .az-select .az-options div[data-val] {
       font-size: 16px;
       font-family: "OpenSans-Semibold";
@@ -178,10 +179,23 @@ h2 {
     letter-spacing: 0.02em; }
 
 /*table*/
+.az-tlink {
+  font-family: "OpenSans-Regular";
+  font-size: 13px;
+  color: #0099cc;
+  letter-spacing: 0.02em; }
+
 .az-center {
   text-align: center; }
 
 .az-left {
   text-align: left; }
+
+/*margins*/
+.az-margin-top20 {
+  margin-top: 20px;
+  display: block; }
+
+/*margins*/
 
 /*# sourceMappingURL=style3.css.map */

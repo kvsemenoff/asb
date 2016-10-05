@@ -138,6 +138,13 @@
 					</tr>
 				</table>
 			</div>
+							
+
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<a href="#" class="az-tlink az-margin-top20">Все результаты</a>
+			</div>
 		</div>
 	</div>
 </section>
