@@ -47,6 +47,9 @@
   background: url(../img/select-arrow.png) no-repeat top left;
   z-index: -1; }
 
+.az-select-focus:before {
+  background: url(../img/select-arrow-focus.png) no-repeat top left; }
+
 /*select*/
 h2 {
   font-size: 28px;
