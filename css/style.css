@@ -17,7 +17,12 @@
 .ho-header-top {
   width: 100%;
   padding: 25px 0px;
-  border-top: 6px solid #faad1e; }
+  border-top: 6px solid #faad1e;
+  text-align: center; }
+  .ho-header-top .logo-box {
+    text-align: left; }
+  .ho-header-top .logo {
+    max-width: 200px; }
   .ho-header-top .ho-header-title {
     color: #2e2f30;
     font-family: "OpenSans-Regular";
@@ -33,14 +38,29 @@
     font-family: "OpenSans-Regular"; }
   .ho-header-top a:hover {
     text-decoration: none; }
+  .ho-header-top .soc-block-search {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 100%; }
+    .ho-header-top .soc-block-search .soc-block-1 {
+      width: 280px;
+      margin: 0 auto; }
+      .ho-header-top .soc-block-search .soc-block-1 .soc-block_item {
+        display: table-cell;
+        vertical-align: middle;
+        padding-right: 5px; }
+    .ho-header-top .soc-block-search .soc-block-2 {
+      width: 100%; }
+  .ho-header-top .sc-bg {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 25px; }
   .ho-header-top .soc-block {
     display: table;
-    width: 300px;
-    padding-left: 25px; }
-    .ho-header-top .soc-block .soc-block_item {
-      display: table-cell;
-      vertical-align: middle;
-      padding-right: 5px; }
+    width: 100%; }
+  .ho-header-top .download {
+    padding-left: 5px;
+    margin-top: 25px; }
   .ho-header-top .soc {
     display: inline-block; }
     .ho-header-top .soc a {
@@ -59,34 +79,35 @@
       border: 2px solid #fab226;
       color: #fff; }
   .ho-header-top .soc-big {
-    display: inline-block;
-    padding-top: 15px; }
+    text-align: left;
+    padding-top: 13px;
+    max-width: 100%; }
     .ho-header-top .soc-big a {
       display: inline-block;
-      width: 37px;
-      height: 37px;
+      width: 40px;
+      height: 40px;
       box-sizing: border-box;
       text-align: center;
-      height: 37px;
       border: 2px solid #000;
       border-radius: 3px;
       color: #000;
       font-size: 25px;
-      text-decoration: none; }
+      text-decoration: none;
+      margin-right: 6px; }
+    .ho-header-top .soc-big a:last-child {
+      margin-right: 0px; }
     .ho-header-top .soc-big a:hover {
       background: #fab226;
       border: 2px solid #fab226;
       color: #fff; }
-  .ho-header-top .sc-bg {
-    padding-left: 50px; }
   .ho-header-top .search-box {
-    padding-top: 13px; }
+    padding-top: 10px; }
     .ho-header-top .search-box form {
       display: block;
       position: relative;
       border-radius: 3px;
       width: 100%;
-      height: 39px;
+      height: 40px;
       border: 3px solid #cbd1d6;
       box-sizing: border-box; }
       .ho-header-top .search-box form input[type="text"] {
@@ -113,5 +134,155 @@
         top: 10px;
         right: 7px;
         background: url(../img/lupa.png) no-repeat top center; }
+  .ho-header-top .store-box {
+    display: table;
+    width: 100%;
+    margin-top: 12px; }
+    .ho-header-top .store-box .google-play, .ho-header-top .store-box .app-store {
+      display: table-cell;
+      vertical-align: middle;
+      width: 50%; }
+      .ho-header-top .store-box .google-play img, .ho-header-top .store-box .app-store img {
+        width: unset; }
+    .ho-header-top .store-box .app-store {
+      padding-left: 10px; }
+
+#check_1 {
+  display: none; }
+
+.anz-perspective {
+  -webkit-perspective: 500px;
+  perspective: 500px; }
+
+#check_1:checked ~ .anz-perspective {
+  transition: all 1s ease-in-out;
+  left: 0px; }
+
+#check_1 ~ .anz-perspective {
+  transition: all 1s ease-in-out;
+  left: -310px; }
+
+#check_1:checked ~ .anz-perspective .menu-list-pressed {
+  transition: all 1s ease-in-out;
+  transform: rotateY(0deg); }
+
+#check_1 ~ .anz-perspective .menu-list-pressed {
+  transition: all 1s ease-in-out;
+  transform: rotateY(100deg); }
+
+#check_1 ~ .anz-menu-ch .fa-bars {
+  display: block; }
+
+#check_1 ~ .anz-menu-ch .fa-times {
+  display: none; }
+
+#check_1:checked ~ .anz-menu-ch .fa-bars {
+  display: none; }
+
+#check_1:checked ~ .anz-menu-ch .fa-times {
+  display: block; }
+
+.anz-menu-ch {
+  color: #faad1e;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 45px;
+  transform: translate(0, -50%);
+  font-size: 35px;
+  z-index: 3; }
+
+/*menu*/
+/*menu style*/
+.anz-perspective {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  top: 0px;
+  z-index: 3; }
+
+.menu-list-pressed {
+  width: 250px;
+  height: 100%;
+  top: 0px;
+  z-index: 1000;
+  color: #fff;
+  background: white;
+  border: 1px solid #828089;
+  box-shadow: 0px 0px 5px #828089; }
+
+.main-menu {
+  text-align: left;
+  padding: 20px; }
+  .main-menu li {
+    display: block;
+    line-height: 40px; }
+    .main-menu li a {
+      display: block;
+      font-size: 20px;
+      font-family: "OpenSans-Regular";
+      color: #0b1d42;
+      text-transform: uppercase; }
+
+.ho-main-menu {
+  width: 100%;
+  height: 55px;
+  background: #000; }
+  .ho-main-menu .main-menu {
+    text-align: center;
+    padding: 0px !important;
+    line-height: 55px; }
+    .ho-main-menu .main-menu li {
+      display: inline-block !important;
+      position: relative; }
+      .ho-main-menu .main-menu li a {
+        display: inline-block !important;
+        padding: 0px 18px;
+        color: #fff;
+        font-family: "OpenSans-Bold";
+        font-size: 14px;
+        letter-spacing: .02em;
+        text-transform: uppercase; }
+    .ho-main-menu .main-menu li:before {
+      position: absolute;
+      content: "";
+      width: 1px;
+      height: 20px;
+      background: #4d4e4f;
+      top: 10px; }
+    .ho-main-menu .main-menu li:last-child:after {
+      position: absolute;
+      content: "";
+      width: 1px;
+      height: 20px;
+      background: #4d4e4f;
+      top: 10px; }
+
+@media only screen and (min-width: 480px) {
+  .logo {
+    max-width: 100% !important; } }
+@media only screen and (min-width: 992px) {
+  .ho-header-top {
+    text-align: left; }
+    .ho-header-top .soc-block-search {
+      display: table;
+      padding-left: 22px;
+      margin-top: 0px; }
+    .ho-header-top .sc-bg {
+      padding-left: 35px;
+      width: 300px;
+      margin: unset; }
+    .ho-header-top .download {
+      margin-top: 0px; }
+
+  .anz-mobile-992 {
+    display: none; } }
+@media only screen and (min-width: 1248px) {
+  .main-menu li a {
+    padding: 0px 35px !important;
+    font-size: 16px !important; }
+
+  .container {
+    width: 1248px; } }
 
 /*# sourceMappingURL=style.css.map */
