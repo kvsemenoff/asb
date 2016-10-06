@@ -287,6 +287,9 @@ h1 {
   letter-spacing: .02em;
   font-family: "OpenSans-Regular"; }
 
+.ah-slider {
+  margin: 30px 0px; }
+
 @media only screen and (min-width: 480px) {
   .logo {
     max-width: 100% !important; } }
