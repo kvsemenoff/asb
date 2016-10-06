@@ -2,7 +2,8 @@
   padding-top: 70px; }
 
 .devision {
-  padding-top: 20px; }
+  margin-top: 20px;
+  background: linear-gradient(to left, #f6f9fa 25%, #FFF 25%); }
 
 .liders {
   padding-top: 30px;
@@ -30,16 +31,16 @@
     display: none; }
   .az-select .az-options {
     display: none;
-    top: 100%;
-    left: 0px;
-    width: 100%;
+    top: calc(100% + 2px);
+    left: -2px;
+    width: calc(100% + 4px);
     position: absolute;
     padding: 0 15px;
     background: rgba(0, 0, 0, 0.8);
     border-radius: 2px;
     z-index: 6; }
     .az-select .az-options div[data-val] {
-      font-size: 16px;
+      font-size: 14px;
       font-family: "OpenSans-Semibold";
       color: #fff;
       line-height: 30px;
@@ -55,10 +56,14 @@
   width: 13px;
   height: 8px;
   background: url(../img/select-arrow.png) no-repeat top left;
-  z-index: -1; }
+  z-index: 1; }
 
 .az-select-focus:before {
   background: url(../img/select-arrow-focus.png) no-repeat top left; }
+
+.az-select_style {
+  position: relative;
+  z-index: 2; }
 
 /*select*/
 h2 {
@@ -98,9 +103,9 @@ h2 {
 
 .ticon1 {
   display: inline-block;
-  width: 14px;
+  width: 18px;
   height: 18px;
-  background: url(../img/az-timg1.png) no-repeat top left;
+  background: url(../img/az-timg1.png) no-repeat top center;
   cursor: pointer;
   vertical-align: middle;
   margin: 0 5px;
@@ -109,7 +114,7 @@ h2 {
     display: none; }
 
 .ticon1:hover {
-  background: url(../img/az-timg1-hover.png) no-repeat top left; }
+  background: url(../img/az-timg1-hover.png) no-repeat top center; }
   .ticon1:hover .az-tpopup {
     position: absolute;
     display: block;
@@ -167,9 +172,9 @@ h2 {
 
 .ticon4 {
   display: inline-block;
-  width: 14px;
+  width: 18px;
   height: 18px;
-  background: url(../img/az-timg4.png) no-repeat top left;
+  background: url(../img/az-timg4.png) no-repeat top center;
   cursor: pointer;
   vertical-align: middle;
   margin: 0 5px; }
@@ -186,21 +191,29 @@ h2 {
   font-size: 14px;
   color: #000;
   letter-spacing: 0.02em; }
+  .az-table_style td:nth-child(2) a {
+    color: #000; }
+  .az-table_style td:nth-child(2) a:hover {
+    text-decoration: underline; }
 .az-table_style td:nth-child(3) {
   text-align: left;
   font-family: "OpenSans-Bold";
   font-size: 14px;
   color: #97a3ad;
   letter-spacing: 0.02em; }
-  .az-table_style td:nth-child(3) strong {
+  .az-table_style td:nth-child(3) a {
     color: #f37527; }
+  .az-table_style td:nth-child(3) a:hover {
+    text-decoration: underline; }
 .az-table_style td:last-child {
   text-align: center; }
-  .az-table_style td:last-child strong {
+  .az-table_style td:last-child a {
     font-family: "OpenSans-Semibold";
     font-size: 14px;
     color: #f32727;
     letter-spacing: 0.02em; }
+  .az-table_style td:last-child a:hover {
+    text-decoration: underline; }
 
 .az-table_style2 td:first-child {
   text-align: center;
@@ -214,14 +227,20 @@ h2 {
   font-size: 14px;
   color: #000;
   letter-spacing: 0.02em; }
+  .az-table_style2 td:nth-child(2) a {
+    color: #000; }
+  .az-table_style2 td:nth-child(2) a:hover {
+    text-decoration: underline; }
 .az-table_style2 td:nth-child(3), .az-table_style2 td:last-child {
   text-align: center;
   font-family: "OpenSans-Bold";
   font-size: 14px;
   color: #97a3ad;
   letter-spacing: 0.02em; }
-  .az-table_style2 td:nth-child(3) strong, .az-table_style2 td:last-child strong {
+  .az-table_style2 td:nth-child(3) a, .az-table_style2 td:last-child a {
     color: #f37527; }
+  .az-table_style2 td:nth-child(3) a:hover, .az-table_style2 td:last-child a:hover {
+    text-decoration: underline; }
 .az-table_style2 th {
   font-family: "OpenSans-Regular";
   font-size: 14px;
@@ -238,14 +257,20 @@ h2 {
   font-size: 14px;
   color: #000;
   letter-spacing: 0.02em; }
+  .az-table_style3 td:first-child a {
+    color: #000; }
+  .az-table_style3 td:first-child a:hover {
+    text-decoration: underline; }
 .az-table_style3 td:nth-child(2) {
   text-align: right;
   font-family: "OpenSans-Bold";
   font-size: 14px;
   color: #97a3ad;
   letter-spacing: 0.02em; }
-  .az-table_style3 td:nth-child(2) strong {
+  .az-table_style3 td:nth-child(2) a {
     color: #f37527; }
+  .az-table_style3 td:nth-child(2) a:hover {
+    text-decoration: underline; }
 
 /*table*/
 /**********tabs*********/
@@ -334,6 +359,9 @@ h2 {
   color: #0099cc;
   letter-spacing: 0.02em; }
 
+.az-tlink:hover {
+  text-decoration: underline; }
+
 .az-center {
   text-align: center; }
 
@@ -359,6 +387,9 @@ h2 {
   letter-spacing: 0.02em;
   line-height: 22px;
   display: block; }
+
+.az-lenta-link:hover {
+  text-decoration: underline; }
 
 .az-lenta-date {
   font-family: "OpenSans-Regular";
@@ -398,6 +429,10 @@ h2 {
       letter-spacing: 0.02em;
       line-height: 23px;
       display: block; }
+      .az-lider-item .az-desc .span-desc2 a {
+        color: #050708; }
+      .az-lider-item .az-desc .span-desc2 a:hover {
+        text-decoration: underline; }
     .az-lider-item .az-desc .span-desc3 {
       font-family: "OpenSans-Regular";
       font-size: 14px;
@@ -415,6 +450,9 @@ h2 {
 
 /*leader*/
 /*margins*/
+.az-margin-top4 {
+  margin-top: 4px; }
+
 .az-margin-top20 {
   margin-top: 20px;
   display: block; }
@@ -454,6 +492,9 @@ h2 {
   .az-sm-margin10 {
     margin-right: 10%; } }
 @media only screen and (min-width: 992px) {
+  .az-md-padding-right30 {
+    padding-right: 30px; }
+
   .az-select_style {
     width: 280px; }
 
