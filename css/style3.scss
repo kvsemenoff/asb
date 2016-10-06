@@ -6,6 +6,7 @@
 }
 .liders{
 	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
 /*select*/
@@ -402,8 +403,8 @@ h2{
 .az-col3{
 	width: 100%;
 	float: left;
-	outline: 1px solid red;
-	height: 20px;
+	// outline: 1px solid red;
+	// height: 20px;
 }
 /*lenta*/
 .az-back{
@@ -427,6 +428,60 @@ h2{
 }
 /*lenta*/
 
+/*leader*/
+.az-lider-item{
+	font-size: 0px;
+	.az-boximg{
+		width: 40%;
+		max-width: 200px;
+		margin-right: 5%;
+		float: left;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	.az-desc{
+		width: 55%;
+		float: left;
+		.span-desc1{
+			font-family: "OpenSans-Semibold";
+			font-size: 18px;
+			color: #050708;
+			letter-spacing: 0.02em;
+			line-height: 24px;
+			display: block;
+			white-space: nowrap;
+		}
+		.span-desc2{
+			font-family: "OpenSans-Regular";
+			font-size: 14px;
+			color: #050708;
+			letter-spacing: 0.02em;
+			line-height: 23px;
+			display: block;
+		}
+		.span-desc3{
+			font-family: "OpenSans-Regular";
+			font-size: 14px;
+			color: #97a3ad;
+			letter-spacing: 0.02em;
+			line-height: 23px;
+			display: block;
+		}
+		.span-desc4{
+			font-family: "OpenSans-Bold";
+			font-size: 16px;
+			color: #f37527;
+			letter-spacing: 0.02em;
+			line-height: 20px;
+			display: block;
+		}
+	}
+}
+/*leader*/
+
+
 
 /*margins*/
 .az-margin-top20{
@@ -437,12 +492,18 @@ h2{
 	margin-bottom: 25px;
 	display: block;
 }
+.az-margin-bottom20{
+	margin-bottom: 20px;
+}
 .az-margin-bottom70{
 	margin-bottom: 70px;
 	display: block;
 }
 .az-margin-bottom10{
 	margin-bottom: 10px;
+}
+.az-margin-bottom15{
+	margin-bottom: 15px;
 }
 .az-padding-top50{
 	padding-top: 50px;
@@ -492,10 +553,10 @@ h2{
 
 @media only screen and (min-width : 1200px) {
 	.az-col3{
-		width: 22%;
+		width: 23.5%;
 	}
-	.az-lg-margin4{
-		margin-right: 4%;
+	.az-lg-margin2{
+		margin-right: 2%;
 	}
 	.az-lg-margin0{
 		margin-right: 0%;
