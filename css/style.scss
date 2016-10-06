@@ -4,6 +4,15 @@
 @import "style4.css";
 @import "fonts.css";
 
+h1{
+    display: inline-block;
+    font-family: "OpenSans-Semibold";
+    font-size: 28px;
+    color: #000;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
 .body{
     font-family: "OpenSans-Regular";
     font-size: 14px;
@@ -338,6 +347,29 @@
     }
 }
 
+.main-content{
+    width: 100%;
+    padding-top: 40px;
+    min-height: 450px;
+    font-family: "OpenSans-Regular";
+    color: #050708;
+    line-height: 30px;
+    padding-bottom: 40px;
+    strong{
+        font-family: "OpenSans-Bold";
+    }
+    p{
+        margin-bottom: 25px;
+        
+    }
+}
+.autor-block{
+    margin-bottom: 10px;
+    color: #97a3ad;
+    font-size: 16px;
+    letter-spacing: .02em;
+    font-family: "OpenSans-Regular";
+}
 
 
 
