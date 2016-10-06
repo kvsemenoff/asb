@@ -19,7 +19,7 @@
 							<div class="soc">
 								<a href="#" class="vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
 								<a href="#" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-								<a href="#" class="tw"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#" class="gp"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 							</div>
 						</div>
 						<div class="soc-block_item">
@@ -77,7 +77,13 @@
     	 			<li><a href="#">РЕЗУЛЬТАТЫ</a></li>
     	 			<li><a href="#">ДИВИЗИОНЫ</a></li>
     	 			<li><a href="#">СТАТИСТИКА</a></li>
-    	 			<li><a href="#">МЕДИА</a></li> 			
+    	 			<li>
+    	 				<a href="#">МЕДИА</a>
+    	 				<ul class="sub-menu">
+    	 					<li><a href="#">Фото</a></li> 			
+    	 					<li><a href="#">Видео</a></li>
+    	 				</ul>
+    	 			</li> 			
     	 			<li><a href="#">ПРОЕКТЫ</a></li> 			
     	 			<li><a href="#">ОБ АСБ</a></li> 		
 			    </ul>
@@ -92,7 +98,13 @@
 		<li><a href="#">РЕЗУЛЬТАТЫ</a></li>
 		<li><a href="#">ДИВИЗИОНЫ</a></li>
 		<li><a href="#">СТАТИСТИКА</a></li>
-		<li><a href="#">МЕДИА</a></li> 			
+		<li>
+			<a href="#">МЕДИА</a>
+			<ul class="sub-menu">
+				<li><a href="#">Фото</a></li> 			
+				<li><a href="#">Видео</a></li>
+			</ul>
+		</li> 				
 		<li><a href="#">ПРОЕКТЫ</a></li> 			
 		<li><a href="#">ОБ АСБ</a></li> 		
     </ul>
