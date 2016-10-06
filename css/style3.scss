@@ -37,7 +37,7 @@
     	padding: 0 15px;
     	background: rgba(0,0,0,0.8);
     	border-radius: 2px;
-	    z-index: 3;
+	    z-index: 6;
     	div[data-val]{
 			font-size: 16px;
 			font-family: "OpenSans-Semibold";
@@ -436,6 +436,9 @@ h2{
 .az-margin10-18{
 	margin-top: 10px;
 	margin-bottom: 18px;
+}
+.az-padding-bottom25{
+	padding-bottom: 25px;
 }
 /*margins*/
 

@@ -92,7 +92,7 @@
 									</tr>
 								</table>
 								<span class="span-table2">Полуфиналы</span>
-								<table class="az-table az-table_style3">
+								<table class="az-table az-table_style3 az-margin-bottom10">
 									<tr>
 										<td>ПАФКСИТ — НГПУ</td>
 										<td><strong>58-56</strong></td>
@@ -196,7 +196,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 az-padding-top50 az-back">
+			<div class="col-md-4 az-padding-top50 az-padding-bottom25 az-back">
 				<h2>Лента</h2>
 				<div class="az-lenta-item">
 					<a href="#" class="az-lenta-link">«Санкт-Петербург», мужчины. СПбГУПТД сыграет с ЛГУ в финале дивизиона</a>
@@ -218,7 +218,7 @@
 					<a href="#" class="az-lenta-link">«Санкт-Петербург», мужчины. СПбГУПТД сыграет с ЛГУ в финале дивизиона</a>
 					<span class="az-lenta-date az-margin10-18">18.08</span>
 				</div>
-				<a href="#" class="az-tlink az-margin-bottom25">Все результаты</a>
+				<a href="#" class="az-tlink">Все результаты</a>
 			</div>
 		</div>
 	</div>
