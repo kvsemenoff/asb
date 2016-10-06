@@ -5,7 +5,7 @@
 				<h2>результаты</h2>
 			</div>
 			<div class="col-md-4">
-				<div class="az-select">
+				<div id="az-select" class="az-select az-margin-bottom10">
 					<select name="" id="">
 						<option value="1">Лига Белова</option>
 						<option value="2">Лига Петрова</option>
@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<span class="span-table">женщины</span>
-				<table class="az-table az-table_style">
+				<table class="az-table az-table_style az-margin-bottom10">
 					<tr>
 						<td>21.12</td>
 						<td>ПАФКСИТ — НГПУ</td>
@@ -78,7 +78,7 @@
 			</div>
 			<div class="col-md-6">
 				<span class="span-table">мужчины</span>
-				<table class="az-table az-table_style">
+				<table class="az-table az-table_style az-margin-bottom10">
 					<tr>
 						<td>21.12</td>
 						<td>ПАФКСИТ — НГПУ</td>
@@ -143,15 +143,16 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<a href="#" class="az-tlink az-margin-top20">Все результаты</a>
+				<a href="#" class="az-tlink az-margin-top20 az-margin-bottom70">Все результаты</a>
 			</div>
 		</div>
 	</div>
 </section>
 <script>
 $(document).ready(function(){
-	var select = $('.az-select');
-	var option = $('.az-select select option');
+	var select = $('#az-select');
+
+	var option = select.find('select option');
 	var str = '<div class="az-options">';
 	for(var i=0; i<option.length; i++){
 		str+= '<div data-val="' +option.eq(i).val() + '">' + option.eq(i).text() + '</div>'
@@ -161,15 +162,16 @@ $(document).ready(function(){
 
 	select.click(function(){
 		select.find('.az-options').slideToggle(0);
+		select.toggleClass('az-select-focus');
 	});
-	$('.az-select select').mouseup(function(){
+	select.find('select').mouseup(function(){
 		return false;
 	});
-	$('.az-select select').mousedown(function(){
+	select.find('select').mousedown(function(){
 		return false;
 	});
-	$('.az-select .az-options div[data-val]').click(function(){
-		$('.az-select select').val($(this).attr('data-val'));
+	select.find('.az-options div[data-val]').click(function(){
+		select.find('select').val($(this).attr('data-val'));
 	});
 });
 </script>
