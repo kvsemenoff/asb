@@ -5,7 +5,7 @@
 				<h2>результаты</h2>
 			</div>
 			<div class="col-md-4">
-				<div id="az-select" class="az-select">
+				<div id="az-select" class="az-select az-margin-bottom10">
 					<select name="" id="">
 						<option value="1">Лига Белова</option>
 						<option value="2">Лига Петрова</option>
@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<span class="span-table">женщины</span>
-				<table class="az-table az-table_style">
+				<table class="az-table az-table_style az-margin-bottom10">
 					<tr>
 						<td>21.12</td>
 						<td>ПАФКСИТ — НГПУ</td>
@@ -78,7 +78,7 @@
 			</div>
 			<div class="col-md-6">
 				<span class="span-table">мужчины</span>
-				<table class="az-table az-table_style">
+				<table class="az-table az-table_style az-margin-bottom10">
 					<tr>
 						<td>21.12</td>
 						<td>ПАФКСИТ — НГПУ</td>
@@ -143,7 +143,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<a href="#" class="az-tlink az-margin-top20">Все результаты</a>
+				<a href="#" class="az-tlink az-margin-top20 az-margin-bottom70">Все результаты</a>
 			</div>
 		</div>
 	</div>
