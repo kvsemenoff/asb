@@ -38,21 +38,124 @@
 					<label for="tab_4" id="tab_l4">женщины</label>
 					<div class="tabs_cont tabs_cont_style">
 						<div id="tab_c3">
-							<div class="az-col3 az-sm-margin10 az-lg-margin4">
-								
+							<div class="az-col3 az-sm-margin10 az-lg-margin2">
+								<div class="az-lider-item az-margin-bottom20">
+									<div class="az-boximg">
+										<img src="img/az-bask1.jpg" alt="">
+									</div>
+									<div class="az-desc">
+										<span class="span-desc1 az-margin-bottom15">Павел Новиков</span>
+										<span class="span-desc2">БелГТУ Белгород</span>
+										<span class="span-desc3">Форвард</span>
+										<span class="span-desc4">36.8</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
 							</div>
-							<div class="az-col3 az-xs-margin4 az-lg-margin4">
-								
+							<div class="az-col3 az-xs-margin4 az-lg-margin2">
+								<div class="az-lider-item az-margin-bottom20">
+									<div class="az-boximg">
+										<img src="img/az-bask2.jpg" alt="">
+									</div>
+									<div class="az-desc">
+										<span class="span-desc1 az-margin-bottom15">Шепелев Никита</span>
+										<span class="span-desc2">СамГТУ Самара</span>
+										<span class="span-desc3">Защитник</span>
+										<span class="span-desc4">35.5</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
 							</div>
-							<div class="az-col3 az-sm-margin10 az-lg-margin4">
-								
+							<div class="az-col3 az-sm-margin10 az-lg-margin2">
+								<div class="az-lider-item az-margin-bottom20">
+									<div class="az-boximg">
+										<img src="img/az-bask1.jpg" alt="">
+									</div>
+									<div class="az-desc">
+										<span class="span-desc1 az-margin-bottom15">Павел Новиков</span>
+										<span class="span-desc2">БелГТУ Белгород</span>
+										<span class="span-desc3">Форвард</span>
+										<span class="span-desc4">36.8</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
 							</div>
 							<div class="az-col3 az-xs-margin4 az-lg-margin0">
-								
+								<div class="az-lider-item az-margin-bottom20">
+									<div class="az-boximg">
+										<img src="img/az-bask2.jpg" alt="">
+									</div>
+									<div class="az-desc">
+										<span class="span-desc1 az-margin-bottom15">Шепелев Никита</span>
+										<span class="span-desc2">СамГТУ Самара</span>
+										<span class="span-desc3">Защитник</span>
+										<span class="span-desc4">35.5</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
 							</div>
+							<div class="clearfix"></div>
+							<a href="#" class="az-tlink">Вся статистика</a>
 						</div>
 						<div id="tab_c4">
-							2
+							<div class="az-col3 az-sm-margin10 az-lg-margin2">
+								<div class="az-lider-item az-margin-bottom20">
+									<div class="az-boximg">
+										<img src="img/az-bask1.jpg" alt="">
+									</div>
+									<div class="az-desc">
+										<span class="span-desc1 az-margin-bottom15">Павел Новиков</span>
+										<span class="span-desc2">БелГТУ Белгород</span>
+										<span class="span-desc3">Форвард</span>
+										<span class="span-desc4">36.8</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="az-col3 az-xs-margin4 az-lg-margin2">
+								<div class="az-lider-item az-margin-bottom20">
+									<div class="az-boximg">
+										<img src="img/az-bask2.jpg" alt="">
+									</div>
+									<div class="az-desc">
+										<span class="span-desc1 az-margin-bottom15">Шепелев Никита</span>
+										<span class="span-desc2">СамГТУ Самара</span>
+										<span class="span-desc3">Защитник</span>
+										<span class="span-desc4">35.5</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="az-col3 az-sm-margin10 az-lg-margin2">
+								<div class="az-lider-item az-margin-bottom20">
+									<div class="az-boximg">
+										<img src="img/az-bask1.jpg" alt="">
+									</div>
+									<div class="az-desc">
+										<span class="span-desc1 az-margin-bottom15">Павел Новиков</span>
+										<span class="span-desc2">БелГТУ Белгород</span>
+										<span class="span-desc3">Форвард</span>
+										<span class="span-desc4">36.8</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="az-col3 az-xs-margin4 az-lg-margin0">
+								<div class="az-lider-item az-margin-bottom20">
+									<div class="az-boximg">
+										<img src="img/az-bask2.jpg" alt="">
+									</div>
+									<div class="az-desc">
+										<span class="span-desc1 az-margin-bottom15">Шепелев Никита</span>
+										<span class="span-desc2">СамГТУ Самара</span>
+										<span class="span-desc3">Защитник</span>
+										<span class="span-desc4">35.5</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+							<a href="#" class="az-tlink">Вся статистика</a>
 						</div>
 					</div>
 				</div>
