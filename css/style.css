@@ -72,7 +72,10 @@ h1 {
     margin-top: 25px; }
   .ho-header-top .soc {
     display: inline-block;
-    vertical-align: middle; }
+    vertical-align: middle;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 5px; }
     .ho-header-top .soc a {
       display: table-cell;
       vertical-align: middle;
@@ -309,9 +312,10 @@ h1 {
   .ho-header-top {
     text-align: left; }
     .ho-header-top .soc-block-search {
-      display: table;
       padding-left: 22px;
       margin-top: 0px; }
+      .ho-header-top .soc-block-search .soc-block-1 {
+        width: 350px; }
     .ho-header-top .sc-bg {
       padding-left: 35px;
       width: 300px;

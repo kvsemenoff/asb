@@ -89,6 +89,9 @@ h1{
     .soc{
         display: inline-block;
         vertical-align: middle;
+        display:table;
+        border-collapse:separate;
+        border-spacing:5px;
         a{
             display: table-cell;
             vertical-align: middle;
@@ -107,7 +110,9 @@ h1{
             font-weight: bold;
             font-size: 12px;
             margin-right: 3px;
+            
         }
+
         a:hover{
             background: #fab226;
             border: 2px solid #fab226;
@@ -421,9 +426,12 @@ h1{
     .ho-header-top{
         text-align: left;
         .soc-block-search{
-            display: table;
+            
             padding-left: 22px;
             margin-top: 0px;
+            .soc-block-1{
+                width: 350px;
+            }
         }
         .sc-bg{
             padding-left: 35px;
