@@ -48,7 +48,7 @@
 						<a href="#" class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 						<a href="#" class="youtube"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 						<a href="#" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						<a href="#" class="tw"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="#" class="gp"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 					</div>
 				</div>
 				
