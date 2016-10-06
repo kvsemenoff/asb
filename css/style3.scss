@@ -4,7 +4,9 @@
 .devision{
 	padding-top: 20px;
 }
-
+.liders{
+	padding-top: 30px;
+}
 
 /*select*/
 .az-select{
@@ -300,6 +302,8 @@ h2{
 	}
 	#tab_1:checked  ~ #tab_l1,
 	#tab_2:checked  ~ #tab_l2,
+	#tab_3:checked  ~ #tab_l3,
+	#tab_4:checked  ~ #tab_l4
 	{
 	    // background: #f0deb4;
 	    color: #0099cc;
@@ -310,6 +314,8 @@ h2{
 	}
 	#tab_1:checked  ~ #tab_l1:before,
 	#tab_2:checked  ~ #tab_l2:before,
+	#tab_3:checked  ~ #tab_l3:before,
+	#tab_4:checked  ~ #tab_l4:before
 	{
 		content: '';
 		position: absolute;
@@ -346,7 +352,9 @@ h2{
 	}
 
 	#tab_1:checked ~ .tabs_cont #tab_c1,
-	#tab_2:checked ~ .tabs_cont #tab_c2 {
+	#tab_2:checked ~ .tabs_cont #tab_c2,
+	#tab_3:checked ~ .tabs_cont #tab_c3,
+	#tab_4:checked ~ .tabs_cont #tab_c4 {
 	    position: static;
 	    left: 0;
 	    opacity: 1;
@@ -390,6 +398,12 @@ h2{
 .az-col2{
 	width: 100%;
 	float: left;
+}
+.az-col3{
+	width: 100%;
+	float: left;
+	outline: 1px solid red;
+	height: 20px;
 }
 /*lenta*/
 .az-back{
@@ -454,7 +468,12 @@ h2{
 }
 
 @media only screen and (min-width : 768px) {
-	
+	.az-col3{
+		width: 45%;
+	}
+	.az-sm-margin10{
+		margin-right: 10%;
+	}
 }
 
 @media only screen and (min-width : 992px) {
@@ -464,13 +483,23 @@ h2{
 	.az-col2{
 		width: 45%;
 	}
+	
 	.az-md-margin10{
 		margin-right: 10%;
 	}
+	
 }
 
 @media only screen and (min-width : 1200px) {
-	
+	.az-col3{
+		width: 22%;
+	}
+	.az-lg-margin4{
+		margin-right: 4%;
+	}
+	.az-lg-margin0{
+		margin-right: 0%;
+	}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
