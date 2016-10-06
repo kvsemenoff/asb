@@ -6,8 +6,7 @@
 /*===== Banner Bultozavr =====*/
 .ab-bultozavr {
   background: url(../img/bulb.png) no-repeat center;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
   .ab-bultozavr .ab-txt-top span {
     font-family: "Opensans-Bold";
     font-size: 17px;
@@ -24,12 +23,10 @@
 
 /*===== Block Foto =====*/
 .ab-foto-wrap {
-  margin-bottom: 30px;
-  margin-top: 67px; }
+  margin-bottom: 30px; }
 
 .ab-big-foto {
   position: relative;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 25px; }
   .ab-big-foto .ab-foto-txt {
     position: absolute;
@@ -52,7 +49,6 @@
       display: block; }
 
 .ab-small-foto-1, .ab-small-foto-2 {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   position: relative; }
   .ab-small-foto-1 img, .ab-small-foto-2 img {
     width: 100%; }

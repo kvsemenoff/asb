@@ -71,7 +71,8 @@ h1 {
     padding-left: 5px;
     margin-top: 25px; }
   .ho-header-top .soc {
-    display: inline-block; }
+    display: inline-block;
+    vertical-align: middle; }
     .ho-header-top .soc a {
       display: inline-block;
       width: 21px;
@@ -117,7 +118,7 @@ h1 {
       border-radius: 3px;
       width: 100%;
       height: 40px;
-      border: 3px solid #cbd1d6;
+      border: 2px solid #cbd1d6;
       box-sizing: border-box; }
       .ho-header-top .search-box form input[type="text"] {
         width: 100%;
@@ -133,7 +134,8 @@ h1 {
         color: #97a3ad;
         max-height: 100%;
         max-width: 100%;
-        font-family: "OpenSans-Semibold"; }
+        font-family: "OpenSans-Semibold";
+        outline: none; }
       .ho-header-top .search-box form input[type="submit"] {
         position: absolute;
         z-index: 50;
@@ -243,7 +245,8 @@ h1 {
     line-height: 55px; }
     .ho-main-menu .main-menu li {
       display: inline-block !important;
-      position: relative; }
+      position: relative;
+      margin-left: -.36em; }
       .ho-main-menu .main-menu li a {
         display: inline-block !important;
         padding: 0px 18px;
@@ -252,6 +255,8 @@ h1 {
         font-size: 14px;
         letter-spacing: .02em;
         text-transform: uppercase; }
+      .ho-main-menu .main-menu li a:hover {
+        text-decoration: underline; }
     .ho-main-menu .main-menu li:before {
       position: absolute;
       content: "";
@@ -287,6 +292,9 @@ h1 {
   letter-spacing: .02em;
   font-family: "OpenSans-Regular"; }
 
+.ah-slider {
+  margin: 30px 0px; }
+
 @media only screen and (min-width: 480px) {
   .logo {
     max-width: 100% !important; } }
@@ -307,9 +315,32 @@ h1 {
   .anz-mobile-992 {
     display: none; } }
 @media only screen and (min-width: 1248px) {
-  .main-menu li a {
-    padding: 0px 35px !important;
-    font-size: 16px !important; }
+  .main-menu li {
+    position: relative;
+    height: 55px; }
+    .main-menu li a {
+      padding: 0px 35px !important;
+      font-size: 16px !important; }
+  .main-menu .sub-menu {
+    display: none; }
+  .main-menu li:hover > .sub-menu {
+    display: block; }
+  .main-menu .sub-menu {
+    position: absolute;
+    border-radius: 6px;
+    width: 100%;
+    top: 47px;
+    background: rgba(42, 44, 45, 0.9);
+    padding: 10px 0px;
+    z-index: 100;
+    text-align: left; }
+    .main-menu .sub-menu li {
+      padding: 0px;
+      height: 5px !important;
+      display: block;
+      text-align: left; }
+    .main-menu .sub-menu li:before {
+      background: none; }
 
   .container {
     width: 1248px; } }
