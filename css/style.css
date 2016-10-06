@@ -41,12 +41,12 @@ h1 {
       font-family: "OpenSans-Semibold"; }
   .ho-header-top a {
     color: #0099cc;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 14px;
     letter-spacing: .02em;
     font-family: "OpenSans-Regular"; }
   .ho-header-top a:hover {
-    text-decoration: none; }
+    text-decoration: underline; }
   .ho-header-top .soc-block-search {
     margin: 0 auto;
     margin-top: 25px;
@@ -74,16 +74,23 @@ h1 {
     display: inline-block;
     vertical-align: middle; }
     .ho-header-top .soc a {
-      display: inline-block;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
       width: 21px;
       height: 21px;
+      max-width: 21px;
+      max-height: 21px;
       box-sizing: border-box;
       text-align: center;
       height: 21px;
       border: 2px solid #000;
       border-radius: 3px;
       color: #000;
-      text-decoration: none; }
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 12px;
+      margin-right: 3px; }
     .ho-header-top .soc a:hover {
       background: #fab226;
       border: 2px solid #fab226;
