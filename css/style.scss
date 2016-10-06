@@ -89,36 +89,26 @@ h1{
     .soc{
         display: inline-block;
         vertical-align: middle;
-        display:table;
-        border-collapse:separate;
-        border-spacing:5px;
         a{
-            display: table-cell;
-            vertical-align: middle;
-            text-align: center;
+            display: inline-block;
             width: 21px;
             height: 21px;
-            max-width: 21px;
-            max-height: 21px;
             box-sizing: border-box;
             text-align: center;
             height: 21px;
+            //line-height: 21px;
             border: 2px solid #000;
             border-radius: 3px;
             color: #000;
             text-decoration: none;
-            font-weight: bold;
-            font-size: 12px;
-            margin-right: 3px;
-            
+            position: relative;
         }
-
         a:hover{
             background: #fab226;
             border: 2px solid #fab226;
             color: #fff;
         }
-        
+
 
            
         
@@ -426,12 +416,9 @@ h1{
     .ho-header-top{
         text-align: left;
         .soc-block-search{
-            
+            display: table;
             padding-left: 22px;
             margin-top: 0px;
-            .soc-block-1{
-                width: 350px;
-            }
         }
         .sc-bg{
             padding-left: 35px;
@@ -457,7 +444,7 @@ h1{
 
 
             a{
-                padding: 0px 35px !important;
+                padding: 0px 40px !important;
                 font-size: 16px !important;
             }
         }
