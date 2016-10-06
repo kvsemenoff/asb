@@ -2,8 +2,7 @@
   padding-top: 70px; }
 
 .devision {
-  margin-top: 20px;
-  background: linear-gradient(to left, #f6f9fa 25%, #FFF 25%); }
+  margin-top: 20px; }
 
 .liders {
   padding-top: 30px;
@@ -492,6 +491,9 @@ h2 {
   .az-sm-margin10 {
     margin-right: 10%; } }
 @media only screen and (min-width: 992px) {
+  .devision {
+    background: linear-gradient(to left, #f6f9fa 25%, #FFF 25%); }
+
   .az-md-padding-right30 {
     padding-right: 30px; }
 
