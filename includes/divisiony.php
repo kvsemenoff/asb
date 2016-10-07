@@ -218,7 +218,7 @@
 					<a href="#" class="az-lenta-link">«Санкт-Петербург», мужчины. СПбГУПТД сыграет с ЛГУ в финале дивизиона</a>
 					<span class="az-lenta-date az-margin10-18">18.08</span>
 				</div>
-				<a href="#" class="az-tlink">Все результаты</a>
+				<a href="#" class="az-tlink">Все новости</a>
 			</div>
 		</div>
 	</div>

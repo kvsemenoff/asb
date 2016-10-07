@@ -54,20 +54,79 @@ h1{
     a:hover{
         text-decoration: underline;
     }
+    .vhod{
+        width: 286px;
+        display: -webkit-flex; 
+        display: flex; 
+         justify-content: space-between;
+         align-items: center;
+         height: 25px;
+         .soc{
+            margin-left: -15px;
+            width: 72px;
+            display: -webkit-flex; 
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            a{
+                display: -webkit-flex; 
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                width: 21px;
+                height: 21px;
+                box-sizing: border-box;
+                text-align: center;
+                height: 21px;
+                
+                border: 2px solid #000;
+                border-radius: 3px;
+                color: #000;
+                text-decoration: none;
+                position: relative;
+                span{
+                    display: -webkit-flex; 
+                     display: flex; 
+                    justify-content: center;
+                    align-items: center;
+                    
+                }
+            }
+            a:hover{
+                background: #fab226;
+                border: 2px solid #fab226;
+                color: #fff;
+            }
+
+        }
+        .soc:after{
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 17px;
+            background: #4d4e4f;
+            top: 2px;
+            right: -12px;
+        }
+    }
+    .vhod-bottom{
+        width: 100%;
+        display: -webkit-flex; 
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        margin-top: 10px;
+
+         
+    }
     .soc-block-search{
         margin: 0 auto;
         margin-top: 25px;
         
         width: 100%;
-        .soc-block-1{
-            width: 280px;
-            margin: 0 auto;
-            .soc-block_item{
-                display: table-cell;
-                vertical-align: middle;
-                padding-right: 5px;
-            }
-        }
+        
         .soc-block-2{
             width: 100%;
         }
@@ -86,39 +145,17 @@ h1{
         padding-left: 5px;
         margin-top: 25px;
     }
-    .soc{
-        display: inline-block;
-        vertical-align: middle;
-        a{
-            display: inline-block;
-            width: 21px;
-            height: 21px;
-            box-sizing: border-box;
-            text-align: center;
-            height: 21px;
-            //line-height: 21px;
-            border: 2px solid #000;
-            border-radius: 3px;
-            color: #000;
-            text-decoration: none;
-            position: relative;
-        }
-        a:hover{
-            background: #fab226;
-            border: 2px solid #fab226;
-            color: #fff;
-        }
-
-
-           
-        
-    }
+    
     .soc-big{
-        text-align: left;
-        padding-top: 13px;
-        max-width: 100%;
+        display: -webkit-flex; 
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
         a{
-            display: inline-block;
+             display: -webkit-flex; 
+            display: flex; 
+            justify-content: center;
+            align-items: center;
             width: 40px;
             height: 40px;
             box-sizing: border-box;
@@ -139,12 +176,13 @@ h1{
             color: #fff;
         }
     }
-    .singup{
-        //padding-left: 30px;
+    .gp{
+        i{
+            font-size: 12px;
+        }
     }
-    
     .search-box{
-        padding-top: 10px;
+       width: 100%;
         form{
             display: block;
             position: relative;
@@ -164,12 +202,13 @@ h1{
                 z-index: 10;
                 top: 0;
                 left: 0;
-                font-size: 17px;
+                font-size: 14px;
                 color: #97a3ad;
                 max-height: 100%;
                 max-width: 100%;
                 font-family: "OpenSans-Semibold";
-                outline: none;
+                outline: none !important;
+                letter-spacing: .02em;
             }
             input[type="submit"]{
                 position: absolute;
@@ -181,13 +220,25 @@ h1{
                 right: 7px;
                 background: url(../img/lupa.png) no-repeat top center;
             }
+            ::-webkit-input-placeholder { /* WebKit browsers */
+               color: #97a3ad;
+            }
+            :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+               color: #97a3ad;
+            }
+            ::-moz-placeholder { /* Mozilla Firefox 19+ */
+              color: #97a3ad;
+            }
+            :-ms-input-placeholder { /* Internet Explorer 10+ */
+               color: #97a3ad;
+            }
 
         }
     }
     .store-box{
         display: table;
         width: 100%;
-        margin-top: 12px;
+        //margin-top: 12px;
         //outline: 1px solid red;
 
         .google-play, .app-store{
