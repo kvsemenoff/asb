@@ -12,35 +12,21 @@
 		color:orange;
 	}
 }
-.p{
-	background-color: red;
-	font-size: 25px;
-}
-@mixin rto($color){
-	color: $color;
 
-}
-$red: #555225;
 .col-md-12{
 	ul{
 		li{
-			@extend .p;
-			@include rto(red);
+			
 			a{
 				float:left;
 				margin-right: 10px;
 				cursor:pointer;
-				color:black;
-				color: $red;
+				
+				
 			}
 		}
 	} 
-	p{
-		span{
-			color: darken($red, 10%);
-			color: lighten($red, 10%);
-		}
-	}
+	
 }
 .col-md-12 ul li a:activ{
 	color:blue;

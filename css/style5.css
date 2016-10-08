@@ -11,21 +11,10 @@
 .col-md-12 h1 {
   color: orange; }
 
-.p, .col-md-12 ul li {
-  background-color: red;
-  font-size: 25px; }
-
-.col-md-12 ul li {
-  color: red; }
-  .col-md-12 ul li a {
-    float: left;
-    margin-right: 10px;
-    cursor: pointer;
-    color: black;
-    color: #555225; }
-.col-md-12 p span {
-  color: #313016;
-  color: #797434; }
+.col-md-12 ul li a {
+  float: left;
+  margin-right: 10px;
+  cursor: pointer; }
 
 .col-md-12 ul li a:activ {
   color: blue;
