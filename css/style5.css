@@ -1,0 +1,56 @@
+#az-select, #az-select2, #az-select3 {
+  width: 165px;
+  float: left;
+  margin-right: 20px;
+  display: inline; }
+
+#az-select .jj, #az-select2 .jj, #az-select3 .jj {
+  outline: 1px solid red; }
+
+/*# sourceMappingURL=style5.css.map */
+.col-md-12 h1 {
+  color: orange; }
+
+.col-md-12 ul li a {
+  float: left;
+  margin-right: 10px;
+  cursor: pointer; }
+
+.col-md-12 ul li a:activ {
+  color: blue;
+  text-decoration: underline; }
+
+.gamers {
+  padding: 1px 5px;
+  float: left;
+  width: 218px;
+  height: 39px;
+  margin-right: 20px;
+  border: 2px solid silver; }
+
+table, table tr {
+  padding-bottom: 10px;
+  text-align: left;
+  margin: 0 auto;
+  width: 100%; }
+
+table tr td {
+  padding: 5px 20px; }
+
+.bg_color {
+  background-color: #eef3f5; }
+
+.bg_color1 {
+  background-color: #e4e9eb;
+  color: #97a3ad; }
+
+.clear {
+  clear: both; }
+
+table {
+  margin-top: 40px; }
+
+.points {
+  color: orange; }
+
+/*# sourceMappingURL=style5.css.map */
