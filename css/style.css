@@ -390,6 +390,9 @@ h1 {
     .main-menu .sub-menu li:before {
       background: none; }
 
+  .pris {
+    padding-left: 30px; }
+
   .container {
     width: 1248px; } }
 
