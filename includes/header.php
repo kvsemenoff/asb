@@ -9,60 +9,47 @@
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<div class="soc-block-search">
-					<div class="soc-block-1">
-						<div class="soc-block_item">
-							<span class="ho-header-title">Войдите</span>
-						</div>
-						<div class="soc-block_item">
-						
-							<div class="soc">
-								<a href="#" class="vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
-								<a href="#" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-								<a href="#" class="gp"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-							</div>
-						</div>
-						<div class="soc-block_item">
-							<a href="#">Напишите в блог</a>
-						</div>
+				<div class="vhod">
+					<span class="ho-header-title">Войдите</span>
+					<div class="soc">
+						<a href="#" class="vk"><span><i class="fa fa-vk" aria-hidden="true"></i></span></a>
+						<a href="#" class="fb"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+						<a href="#" class="gp"><span><i class="fa fa-google-plus" aria-hidden="true"></i></span></a>
 					</div>
-					<div class="soc-block-2">
-
-						<div class="search-box">
-							<form action="#">
-								<input type="text" placeholder="Поиск">
-								<input type="submit" value="">
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-12 col-xs-12">
-				<div class="sc-bg">
-
-					<div class="singup">
-						<span class="ho-header-title"><strong>Присоединяйтесь:</strong></span>
-					</div>
-					<div class="soc-big">
-						<a href="#" class="vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
-						<a href="#" class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-						<a href="#" class="youtube"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-						<a href="#" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						<a href="#" class="gp"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-					</div>
+					<a href="#">Напишите в блог</a>
 				</div>
 				
+				<div class="vhod-bottom">
+					<div class="search-box">
+						<form action="#">
+							<input type="text" placeholder="Поиск">
+							<input type="submit" value="">
+						</form>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<div class="download">
-					<span class="ho-header-title"><strong>Качайте наше приложение:</strong></span>
-					<div class="store-box">
-						
-							<a href="#"><img src="img/google_play.png" alt=""></a>
-						
-							<a href="#"><img src="img/appstore.png" alt=""></a>
-						
+				<div class="pris">
+					<div class="vhod">
+						<span class="ho-header-title"><strong>Присоединяйтесь:</strong></span>
 					</div>
+					<div class="vhod-bottom">
+					 	<div class="soc-big">
+					 		<a href="#" class="vk"><i class="fa fa-vk" aria-hidden="true"></i></a>
+							<a href="#" class="youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+							<a href="#" class="youtube"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a href="#" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#" class="tw"><i class="fa fa-twitter" aria-hidden="true"></i></a>	
+					 	</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12 col-xs-12">
+				<div class="vhod">
+					<span class="ho-header-title"><strong>Качайте наше приложение:</strong></span>
+				</div>
+				<div class="vhod-bottom">
+					<a href="#"><img src="img/appstore.png" alt=""></a>
 				</div>
 			</div>
 		</div>

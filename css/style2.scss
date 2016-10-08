@@ -59,6 +59,7 @@
 	width: 100%;
 	border-bottom: 1px solid #4d4e4f;
 	margin-bottom: 20px;
+	text-align: center;
 	li{
 		position: relative;
 		display: block;
@@ -118,7 +119,7 @@
 	position: absolute;
 	width: 40px; 
 	height: 40px;
-	left: -30px;
+	left: 0px;
 	top: 30%;
 	background: url(../img/ah-arrleft.png) center center no-repeat;
 }
@@ -127,7 +128,7 @@
 	position: absolute;
 	width: 40px; 
 	height: 40px;
-	right: -30px;
+	right: 0px;
 	top: 30%;
 	background: url(../img/ah-arright.png) center center no-repeat;
 }
@@ -166,9 +167,13 @@
 			display: inline-block;
 			a{
 				display: inline-block;
-				padding: 16px 18px;
+				padding: 16px 22px;
+			}
+			a:hover{
+				text-decoration: underline;
 			}
 		}
+
 		li:before{
 			position: absolute;
 			display: inline-block;
@@ -192,5 +197,22 @@
 }
 
 @media only screen and (min-width : 1200px) {
-    
+ .arrow-left{
+	display: block;
+	position: absolute;
+	width: 40px; 
+	height: 40px;
+	left: -30px;
+	top: 30%;
+	background: url(../img/ah-arrleft.png) center center no-repeat;
+}
+.arrow-right{
+	display: block;
+	position: absolute;
+	width: 40px; 
+	height: 40px;
+	right: -30px;
+	top: 30%;
+	background: url(../img/ah-arright.png) center center no-repeat;
+}
 }

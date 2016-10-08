@@ -218,7 +218,7 @@
 					<a href="#" class="az-lenta-link">«Санкт-Петербург», мужчины. СПбГУПТД сыграет с ЛГУ в финале дивизиона</a>
 					<span class="az-lenta-date az-margin10-18">18.08</span>
 				</div>
-				<a href="#" class="az-tlink">Все результаты</a>
+				<a href="#" class="az-tlink">Все новости</a>
 			</div>
 		</div>
 	</div>
@@ -239,14 +239,21 @@ $(document).ready(function(){
 		select.find('.az-options').slideToggle(0);
 		select.toggleClass('az-select-focus');
 	});
-	select.find('select').mouseup(function(){
-		return false;
-	});
+
 	select.find('select').mousedown(function(){
 		return false;
 	});
+	select.mouseup(function(){
+		select.find('select').focus();
+	});
 	select.find('.az-options div[data-val]').click(function(){
 		select.find('select').val($(this).attr('data-val'));
+	});
+	select.find('select').focusout(function(){
+		if(!select.is(':hover')){
+			select.find('.az-options').slideUp(0);
+			select.removeClass('az-select-focus');
+		}
 	});
 });
 </script>
