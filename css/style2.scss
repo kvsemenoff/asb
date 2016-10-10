@@ -1,12 +1,141 @@
+.no-padding{
+	padding-left: 0;
+	padding-right: 0;
+}
+// *******************************************
+
+.ah-protwrapp{
+	margin-top: 0px;
+    margin-right: 0px;
+	text-align: center;
+}
+.ah-protokol1{
+	margin-top: 50px;
+}
+.ah-protwrapp1{
+	text-align: center;
+	margin-top: 20px;
+}
+.ah-protwrapp2{
+	float: none;
+	text-align: center;
+}
+.ah-protwrapp3{
+	float: none;
+	margin-right: 0px;
+	text-align: center;
+	margin-top: 20px;
+}
+.ah-protokol1-imgbox{
+	text-align: center;
+}
+.ah-textal{
+	text-align: center;
+}
+.ah-protokol1-span{
+	display: block;
+	font-family: "OpenSans-Semibold";
+	font-size: 20px;
+	color: #050708;
+	text-transform: uppercase;
+    padding-left: 0px;
+	span{
+		display: block;
+		color: #97a3ad;
+		margin-left: 0px; 
+	}
+}
+.ah-protokol11-span{
+	display: block;
+	font-family: "OpenSans-Semibold";
+	font-size: 20px;
+	color: #050708;
+	text-transform: uppercase;
+	span{
+		display: block;
+		color: #97a3ad;
+	}
+}
+.ah-protokol1-span2{
+	display: block;
+	font-family: "OpenSans-Semibold";
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #050708;
+	margin-top: -7px;
+	span{
+		margin-left: 15px;
+		color: #e09b1b;
+	}
+}
+.ah-protokol1-span3{
+	display: inline-block;
+	font-family: "OpenSans-Bold";
+	font-size: 40px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #97a3ad;
+	padding: 20px 0px; 
+	background-color: #e4e9eb;
+	width: 100%;
+	margin-top: 20px;
+	p{
+	    display: inline-block;
+		color: #050708;
+	}
+	span{
+		color: #e09b1b;
+	}
+}
+.ah-protlist{
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	li{
+		display: inline-block;
+		font-family: "OpenSans-Semibold";
+		font-size: 20px;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: #97a3ad;
+		margin-right: 20px; 
+		p{
+		    display: inline-block;
+			color: #050708;
+		}
+		span{
+			color: #e09b1b;
+		}
+	}
+	li:last-child{
+		margin-right: 0px;
+	}
+}
+.ah-protlist-span1{
+	display: block;
+	font-family: "OpenSans-Semibold";
+	color: #050708;
+	font-size: 20px;
+	line-height: 28px;
+	span{
+		font-family: "OpenSans-Bold";
+		color: #000;
+	}
+}
+.ah-protlist-span2{
+	display: inline-block;
+	font-family: "OpenSans-Bold";
+	color: #000;
+	font-size: 20px;
+	line-height: 24px;
+	span{
+		font-family: "OpenSans-Semibold";
+		color: #050708;
+	}
+}
+// **********************************************************
 .ah-footer{
 	background-color: #000;
-
-// ***************************
-// ***************************
-//margin-bottom: 50px;
-// ***************************
-// ***************************
-
 }
 .ah-wr{
     padding: 7px 0px;
@@ -147,6 +276,42 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.ah-protwrapp{
+		margin-top: -27px;
+	    margin-right: 45px;
+	}
+	.ah-protwrapp1{
+		margin-top: 0px; 
+	}
+	.ah-protlist{
+		margin-bottom: 0px;
+	}
+	.ah-protokol1-span3{
+		width: 61%;
+	}
+	.ah-protokol1-span{
+	    padding-left: 23px;
+		span{
+			margin-left: -31px; 
+		}
+	}
+	.ah-protokol1-imgbox{
+		text-align: right;
+	}
+	.ah-textal{
+		text-align: left !important;
+	}
+	.ah-protwrapp2{
+		float: left;
+		text-align: center;
+	}
+	.ah-protwrapp3{
+		float: right;
+		text-align: left;
+		margin-right: 14px;
+		margin-top: 0px;
+	}
+// ***********************
 	.ah-footer-span{
 		display: inline-block;
 		margin-left: 110px;
@@ -215,4 +380,13 @@
 	top: 30%;
 	background: url(../img/ah-arright.png) center center no-repeat;
 }
+}
+
+
+
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    //padding: 0px;
+    //margin: 0px;
+    // outline: 1px solid red;
 }
