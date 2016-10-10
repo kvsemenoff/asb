@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Новости</title>
+	<title>Видео</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -75,11 +75,7 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div id="az-select" class="az-select az-margin-bottom10">
-					<select name="" id="">
-						<option value="1">Добавить видео</option>
-					</select>
-				</div>
+				<a class="button-1" href="#">Добавить видео</a>
 			</div>
 			<div class="col-md-3">
 				
