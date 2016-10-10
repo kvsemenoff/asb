@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Статистика</title>
+	<title>Протокол</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -39,62 +39,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>СТАТИСТИКА</h1>
-						
-				</div>
+					<span>21.05.2016 18:00</span>
+					
 
+				</div>
 				<div class="col-md-8">
 					
-						<ul class="male">
-								<li><a href="#">МУЖЧИНЫ</a></li>
-								<li><a href="#">ЖЕНЩИНЫ</a></li>
-						</ul>
-						<div class="clear"></div> 		
-				
-					<span class="gamers">
-						<span>По</span>
-						<span><a href="#">5</a></span>
-						<span><a href="#">10</a></span>
-						<span><a href="#">25</a></span>
-						<span><a href="#">50</a></span>
-						<span><a href="#">100</a></span>
-						<span>игроков</span>
-					</span>
 
-					<div  class="az-select az-margin-bottom10 az-select">
-						<select name="" id="" > 
-							<option value="1">Лига Белова</option>
-							<option value="2">Лига Петрова</option>
-							<option value="3">Суперфинал</option>
-							<option value="4">Дивизионы</option>
-							<option value="5">АСБ ФЕСТ</option>
-							<option value="6">Матчи звезд</option>
-							<option value="7">3x3</option>
-							<option value="8">Сборная</option>
-							<option value="9">Тренировачный лагерь</option>
-							<option value="10">Разное</option>
-						</select>						
-					</div>
+					
 
-					<div class="az-select az-margin-bottom10 az-select">
-						<select name="" id="" > 
-							<option value="1">Все дивизионы</option>
-						</select>								
-					</div>
-
-					<div class="az-select az-margin-bottom10 az-select">
-						<select name="" id="" > 
-							<option value="1">Очки за игру</option>
-							<option value="2">Передачи за игру</option>
-							<option value="3">Перехваты за игру</option>
-							<option value="4">Подборы за игру</option>
-							<option value="5">Потери за игру</option>
-							<option value="6">Точность штрафных</option>
-							<option value="7">Удачные штрафные за игру</option>	
-						</select>					
-					</div>
 					<div class="clear"></div>
-					<span class="points">Очки за игру (Минимально игр: 2)</span>
 					<table >
 						<tr class="bg_color1" >
 							<td>#</td>						
@@ -312,7 +266,33 @@
 		</div>
 	</section>
 	<?php require_once('includes/footer.php'); ?>
+<script>
+$(document).ready(function(){
+	var select = $('#az-select');
 
+	var option = select.find('select option');
+	var str = '<div class="az-options">';
+	for(var i=0; i<option.length; i++){
+		str+= '<div data-val="' +option.eq(i).val() + '">' + option.eq(i).text() + '</div>'
+	}
+	str+= '</div>';
+	select.html(select.html() + str);
+
+	select.click(function(){
+		select.find('.az-options').slideToggle(0);
+		select.toggleClass('az-select-focus');
+	});
+	select.find('select').mouseup(function(){
+		return false;
+	});
+	select.find('select').mousedown(function(){
+		return false;
+	});
+	select.find('.az-options div[data-val]').click(function(){
+		select.find('select').val($(this).attr('data-val'));
+	});
+});
+</script>
 	
 </body>
 </html>
