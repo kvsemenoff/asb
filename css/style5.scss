@@ -7,9 +7,11 @@
 
 
 /*# sourceMappingURL=style5.css.map */
+
  h1 {
   margin-top: 20px;margin-bottom: 20px;
   color: orange; }
+
 
 .male  li a {
   float: left;
@@ -52,7 +54,7 @@
   }    
 
                   /* Начало таблицы statistic */
-table, table tr {
+/*table, table tr {
   font-family: "OpenSans-Semibold";
   font-size: 14px;  
   padding-bottom: 10px;
@@ -80,10 +82,36 @@ table {
 table tr td:nth-child(1){color:#97a3ad;font-family: "OpenSans Regular";font-size: 16px;}
 table tr td:nth-child(4){color:#97a3ad;}
 table tr td:nth-child(5){color:#97a3ad;}
-table tr td:nth-child(6){color:#97a3ad;}
+table tr td:nth-child(6){color:#97a3ad;}*/
 
                 /* Конец таблицы */
 
-  
+
+                /*Таблица протокола*/
+.table_prot table caption{
+  font-size: 26px;
+  color:#e09b1b;
+  font-family: "OpenSans-Semibold";
+}
+ tr{
+ font-family: "OpenSans-Semibold";
+  font-size: 14px;  
+  padding-bottom: 17px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+   }
+
+table tr td {
+  padding:0 15px;
+   }
+
+table tr td:nth-child(1){background-color:#e4e9eb; opacity: 0.5;} 
+table tr:nth-child(2n){background-color:#e4e9eb;} 
+
+.first{
+  background-color: #e4e9eb;
+}
+
 
 /*# sourceMappingURL=style5.css.map */

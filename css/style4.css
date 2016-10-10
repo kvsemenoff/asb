@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(reset.css);
 @import url(style2.css);
 @import url(style3.css);
@@ -116,6 +117,101 @@
   .ab-video-wrap .ab-padding-2 {
     padding-bottom: 49%; }
 
+/*====== ╨б╤В╤А╨░╨╜╨╕╤Ж╨░ ╤Б ╤Д╨╛╤В╨╛ =======*/
+.ab-photo-wrapper h2 {
+  padding-top: 71px; }
+.ab-photo-wrapper #az-select {
+  width: 260px; }
+
+.ab-big-andsmall {
+  padding-top: 42px; }
+  .ab-big-andsmall img {
+    width: 100%; }
+  .ab-big-andsmall .ab-mma {
+    font-size: 16px !important; }
+  .ab-big-andsmall .ab-mma-2 {
+    font-size: 14px !important; }
+  .ab-big-andsmall .videowrapper {
+    position: relative; }
+    .ab-big-andsmall .videowrapper .ab-ph-main {
+      position: absolute;
+      bottom: 50px;
+      left: 10px; }
+      .ab-big-andsmall .videowrapper .ab-ph-main span {
+        font-family: "Opensans-Semibold";
+        font-size: 20px;
+        color: #fff;
+        text-shadow: #0B0B0B -1px -1px 0; }
+        .ab-big-andsmall .videowrapper .ab-ph-main span a {
+          color: #fff; }
+    .ab-big-andsmall .videowrapper .ab-ph-mini {
+      position: absolute;
+      right: 40px;
+      bottom: 50px; }
+      .ab-big-andsmall .videowrapper .ab-ph-mini span {
+        background: url(../img/ab-fotik.png) no-repeat left center;
+        font-family: "Opensans-Regular";
+        font-size: 16px;
+        padding-left: 25px; }
+        .ab-big-andsmall .videowrapper .ab-ph-mini span a {
+          color: #fff; }
+    .ab-big-andsmall .videowrapper .ab-ph-main-2 {
+      left: 21px;
+      bottom: 30px; }
+    .ab-big-andsmall .videowrapper .ab-ph-mini-2 {
+      right: 21px;
+      bottom: 30px; }
+  .ab-big-andsmall .ab-new-padding {
+    padding-top: 31px; }
+  .ab-big-andsmall .ab-padding-2 {
+    margin-top: 31px; }
+  .ab-big-andsmall .ab-margin-bottomm {
+    margin-bottom: 28px; }
+
+.ab-all-photo {
+  padding-top: 20px; }
+  .ab-all-photo img {
+    width: 100%; }
+  .ab-all-photo .container {
+    margin-bottom: 30px; }
+    .ab-all-photo .container .col-md-3 {
+      margin-bottom: 20px; }
+  .ab-all-photo .ab-box-img {
+    position: relative; }
+    .ab-all-photo .ab-box-img span {
+      font-family: "Opensans-Semibold";
+      font-size: 14px;
+      color: #fff;
+      text-shadow: #0B0B0B -1px -1px 0; }
+    .ab-all-photo .ab-box-img .ab-ph-main {
+      position: absolute;
+      bottom: 10px;
+      left: 15px; }
+      .ab-all-photo .ab-box-img .ab-ph-main span a {
+        color: #fff; }
+    .ab-all-photo .ab-box-img .ab-ph-mini {
+      position: absolute;
+      right: 15px;
+      bottom: 10px; }
+      .ab-all-photo .ab-box-img .ab-ph-mini span {
+        background: url(../img/ab-fotik.png) no-repeat left center;
+        width: 16px;
+        height: 14px;
+        padding-left: 25px; }
+        .ab-all-photo .ab-box-img .ab-ph-mini span a {
+          color: #fff; }
+  .ab-all-photo .ab-photo-but-wrap {
+    text-align: center; }
+    .ab-all-photo .ab-photo-but-wrap .button-photo {
+      display: inline-block;
+      padding: 10px 78px;
+      border-radius: 4px;
+      background: linear-gradient(to top, #FBB429, #F9A219);
+      font-family: "Opensans-Semibold";
+      font-size: 14px;
+      color: #fff; }
+
+/*====== all-video =======*/
 @media only screen and (min-width: 768px) {
   .ab-big-foto {
     margin-bottom: 0; }
@@ -133,6 +229,32 @@
   .ab-bultozavr .ab-txt-top span {
     font-size: 24px; } }
 @media only screen and (min-width: 992px) {
+  .ab-big-andsmall .videowrapper .ab-ph-main {
+    bottom: 50px;
+    left: 40px; }
+    .ab-big-andsmall .videowrapper .ab-ph-main br {
+      display: none; }
+  .ab-big-andsmall .videowrapper .ab-ph-mini {
+    right: 40px;
+    bottom: 50px; }
+  .ab-big-andsmall .videowrapper .ab-ph-main-2 {
+    left: 21px;
+    bottom: 30px; }
+  .ab-big-andsmall .videowrapper .ab-ph-mini-2 {
+    right: 21px;
+    bottom: 30px; }
+
+  .ab-all-photo {
+    padding-top: 0; }
+    .ab-all-photo .container {
+      margin-bottom: 30px; }
+      .ab-all-photo .container .col-md-3 {
+        margin-bottom: 0; }
+    .ab-all-photo .ab-photo-but-wrap {
+      margin: 25px 0; }
+      .ab-all-photo .ab-photo-but-wrap .button-photo {
+        padding: 10px 90px; }
+
   .ab-padding-2 {
     margin-top: 31px;
     padding-bottom: 49%; } }

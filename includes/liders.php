@@ -44,7 +44,7 @@
 										<img src="img/az-bask1.jpg" alt="">
 									</div>
 									<div class="az-desc">
-										<span class="span-desc1 az-margin-bottom15">Павел Новиков</span>
+										<a href="#" class="span-desc1 az-margin-bottom15">Павел Новиков</a>
 										<span class="span-desc2"><a href="#">БелГТУ</a> Белгород</span>
 										<span class="span-desc3">Форвард</span>
 										<span class="span-desc4">36.8</span>
@@ -58,7 +58,7 @@
 										<img src="img/az-bask2.jpg" alt="">
 									</div>
 									<div class="az-desc">
-										<span class="span-desc1 az-margin-bottom15">Шепелев Никита</span>
+										<a href="#" class="span-desc1 az-margin-bottom15">Шепелев Никита</a>
 										<span class="span-desc2"><a href="#">СамГТУ</a> Самара</span>
 										<span class="span-desc3">Защитник</span>
 										<span class="span-desc4">35.5</span>
@@ -72,7 +72,7 @@
 										<img src="img/az-bask1.jpg" alt="">
 									</div>
 									<div class="az-desc">
-										<span class="span-desc1 az-margin-bottom15">Павел Новиков</span>
+										<a href="#" class="span-desc1 az-margin-bottom15">Павел Новиков</a>
 										<span class="span-desc2"><a href="#">БелГТУ</a> Белгород</span>
 										<span class="span-desc3">Форвард</span>
 										<span class="span-desc4">36.8</span>
@@ -86,7 +86,7 @@
 										<img src="img/az-bask2.jpg" alt="">
 									</div>
 									<div class="az-desc">
-										<span class="span-desc1 az-margin-bottom15">Шепелев Никита</span>
+										<a href="#" class="span-desc1 az-margin-bottom15">Шепелев Никита</a>
 										<span class="span-desc2"><a href="#">СамГТУ</a> Самара</span>
 										<span class="span-desc3">Защитник</span>
 										<span class="span-desc4">35.5</span>
@@ -104,7 +104,7 @@
 										<img src="img/az-bask1.jpg" alt="">
 									</div>
 									<div class="az-desc">
-										<span class="span-desc1 az-margin-bottom15">Павел Новиков</span>
+										<a href="#" class="span-desc1 az-margin-bottom15">Павел Новиков</a>
 										<span class="span-desc2"><a href="#">БелГТУ</a> Белгород</span>
 										<span class="span-desc3">Форвард</span>
 										<span class="span-desc4">36.8</span>
@@ -118,7 +118,7 @@
 										<img src="img/az-bask2.jpg" alt="">
 									</div>
 									<div class="az-desc">
-										<span class="span-desc1 az-margin-bottom15">Шепелев Никита</span>
+										<a href="#" class="span-desc1 az-margin-bottom15">Шепелев Никита</a>
 										<span class="span-desc2"><a href="#">СамГТУ</a> Самара</span>
 										<span class="span-desc3">Защитник</span>
 										<span class="span-desc4">35.5</span>
@@ -132,7 +132,7 @@
 										<img src="img/az-bask1.jpg" alt="">
 									</div>
 									<div class="az-desc">
-										<span class="span-desc1 az-margin-bottom15">Павел Новиков</span>
+										<a href="#" class="span-desc1 az-margin-bottom15">Павел Новиков</a>
 										<span class="span-desc2"><a href="#">БелГТУ</a> Белгород</span>
 										<span class="span-desc3">Форвард</span>
 										<span class="span-desc4">36.8</span>
@@ -146,7 +146,7 @@
 										<img src="img/az-bask2.jpg" alt="">
 									</div>
 									<div class="az-desc">
-										<span class="span-desc1 az-margin-bottom15">Шепелев Никита</span>
+										<a href="#" class="span-desc1 az-margin-bottom15">Шепелев Никита</a>
 										<span class="span-desc2"><a href="#">СамГТУ</a> Самара</span>
 										<span class="span-desc3">Защитник</span>
 										<span class="span-desc4">35.5</span>
