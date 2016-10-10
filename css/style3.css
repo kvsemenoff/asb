@@ -1,5 +1,5 @@
 .results {
-  padding-top: 70px; }
+  padding-top: 60px; }
 
 .devision {
   margin-top: 20px; }
@@ -355,6 +355,7 @@ h2 {
   width: 100%; }
 
 .az-tlink {
+  display: inline;
   font-family: "OpenSans-Regular";
   font-size: 13px;
   color: #0099cc;
@@ -423,6 +424,8 @@ h2 {
       line-height: 24px;
       display: block;
       white-space: nowrap; }
+    .az-lider-item .az-desc .span-desc1:hover {
+      text-decoration: underline; }
     .az-lider-item .az-desc .span-desc2 {
       font-family: "OpenSans-Regular";
       font-size: 14px;
@@ -456,18 +459,18 @@ h2 {
 
 .az-margin-top20 {
   margin-top: 20px;
-  display: block; }
+  display: inline-block; }
 
 .az-margin-bottom25 {
   margin-bottom: 25px;
-  display: block; }
+  display: inline-block; }
 
 .az-margin-bottom20 {
   margin-bottom: 20px; }
 
 .az-margin-bottom70 {
   margin-bottom: 70px;
-  display: block; }
+  display: inline-block; }
 
 .az-margin-bottom10 {
   margin-bottom: 10px; }
