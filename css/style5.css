@@ -6,15 +6,10 @@
   display: inline; }
 
 /*# sourceMappingURL=style5.css.map */
-.col-md-12 h1 {
+h1 {
   margin-top: 20px;
   margin-bottom: 20px;
   color: orange; }
-
-.col-md-8 {
-  width: 100%;
-  max-width: 1500px;
-  min-width: 300px; }
 
 .male li a {
   float: left;
@@ -35,7 +30,7 @@
 
 .gamers {
   font-size: 14px;
-  font-weight: bold;
+  font-family: "OpenSans-Semibold";
   text-align: center;
   padding: 1px 5px;
   float: left;
@@ -58,8 +53,8 @@
 
 /* ╨Э╨░╤З╨░╨╗╨╛ ╤В╨░╨▒╨╗╨╕╤Ж╤Л statistic */
 table, table tr {
-  font-weight: bold;
-  font-size: 15px;
+  font-family: "OpenSans-Semibold";
+  font-size: 14px;
   padding-bottom: 10px;
   text-align: left;
   margin: 0 auto;
@@ -84,7 +79,8 @@ table {
 
 table tr td:nth-child(1) {
   color: #97a3ad;
-  font-weight: normal; }
+  font-family: "OpenSans Regular";
+  font-size: 16px; }
 
 table tr td:nth-child(4) {
   color: #97a3ad; }
