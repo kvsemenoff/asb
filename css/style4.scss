@@ -286,35 +286,6 @@
 
 /*====== all-video =======*/
 
-.ab-video-wrap{
-	margin-top:20px;
-	}
-	.videowrapper {
-	    float: none;
-	    clear: both;
-	    width: 100%;
-	    position: relative;
-	    padding-bottom: 55%;
-	    padding-top: 25px;
-	    height: 0;
-	    margin-bottom: 20px;
-	}
-	.videowrapper iframe {
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    width: 100%;
-	    height: 100%;
-	}
-	.ab-padding{
-		margin-top:0;
-		padding-bottom: 50%;
-	}
-	.ab-padding-2{
-		padding-bottom: 49%;
-	}
-}
-
 
 
 
@@ -367,30 +338,31 @@
 @media only screen and (min-width : 992px) {
 
 	.ab-big-andsmall{
-	.videowrapper{
-		.ab-ph-main{
-			bottom:50px;
-			left: 40px;
-			br{
-				display: none;
+		.videowrapper{
+			.ab-ph-main{
+				bottom:50px;
+				left: 40px;
+				br{
+					display: none;
+				}
+			}
+			.ab-ph-mini{
+				right: 40px;
+				bottom:50px;
+			}
+			.ab-ph-main-2{
+				left: 21px;
+				bottom:30px;
+			}
+			.ab-ph-mini-2{
+				right: 21px;
+				bottom:30px;
 			}
 		}
-		.ab-ph-mini{
-			right: 40px;
-			bottom:50px;
-		}
-		.ab-ph-main-2{
-			left: 21px;
-			bottom:30px;
-		}
-		.ab-ph-mini-2{
-			right: 21px;
-			bottom:30px;
-		}
 	}
-}
 	
 	.ab-all-photo{
+		padding-top:0;
 		.container{
 		margin-bottom: 30px;
 		.col-md-3{
