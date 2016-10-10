@@ -309,7 +309,13 @@
     float: right; }
     .ah-footer-list2 li {
       display: inline-block; } }
+@media only screen and (min-width: 993px) {
+  .ah-protokol1-span3 {
+    width: 49%; } }
 @media only screen and (min-width: 1200px) {
+  .ah-protokol1-span3 {
+    width: 61%; }
+
   .arrow-left {
     display: block;
     position: absolute;
