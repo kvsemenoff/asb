@@ -97,7 +97,7 @@
 		<div class="row">
 			<div class="col-md-2">
     		</div>
-			<div class="col-md-8">
+			<div class="col-md-8 ab-bg-extra">
 				<div class="ab-title-vid">
 					<span>Новости</span>
 				</div>
@@ -107,7 +107,7 @@
 			<div class="clearfix"></div>
 			<div class="col-md-2">
     		</div>
-			<div class="col-md-4">
+			<div class="col-md-4 ab-bg-extra">
 				<div class="ab-news-txt">
 					<span>«Санкт-Петербург», мужчины. СПбГУПТД
 						сыграет с ЛГУ в финале дивизиона
@@ -115,7 +115,7 @@
 					<span>18.08</span>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 ab-bg-extra">
 				<div class="ab-news-txt">
 					<span>«Санкт-Петербург», мужчины. СПбГУПТД
 						сыграет с ЛГУ в финале дивизиона
@@ -130,24 +130,24 @@
 			<div class="clearfix"></div>
 			<div class="col-md-2">
     		</div>
-			<div class="col-md-4">
+			<div class="col-md-4 ab-bg-extra">
 				<div class="ab-news-txt">
-					<span>«Санкт-Петербург», мужчины. СПбГУПТД
-						сыграет с ЛГУ в финале дивизиона
+					<span>Алексей Саврасенко: «Студенческие команды 
+						Греции далеки от уровня российских»
 					</span><br>
 					<span>18.08</span>
 				</div>
+				<div class="ab-rasst"></div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 ab-bg-extra">
 				<div class="ab-news-txt">
-					<span>«Санкт-Петербург», мужчины. СПбГУПТД
-						сыграет с ЛГУ в финале дивизиона
+					<span>Алексей Саврасенко: «Студенческие команды 
+						Греции далеки от уровня российских»
 					</span><br>
 					<span>18.08</span>
 				</div>
+				<div class="ab-rasst"></div>
 			</div>
-			<div class="col-md-2">
-    		</div>
 			<div class="col-md-2">
     		</div>
 			<div class="clearfix"></div>
