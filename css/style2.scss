@@ -360,26 +360,34 @@
 		}
 	}
 }
+@media only screen and (min-width : 993px) {
+	.ah-protokol1-span3 {
+		width: 49%;
+	}
+}
 
 @media only screen and (min-width : 1200px) {
- .arrow-left{
-	display: block;
-	position: absolute;
-	width: 40px; 
-	height: 40px;
-	left: -30px;
-	top: 30%;
-	background: url(../img/ah-arrleft.png) center center no-repeat;
-}
-.arrow-right{
-	display: block;
-	position: absolute;
-	width: 40px; 
-	height: 40px;
-	right: -30px;
-	top: 30%;
-	background: url(../img/ah-arright.png) center center no-repeat;
-}
+	.ah-protokol1-span3 {
+		width: 61%;
+	}
+	.arrow-left{
+		display: block;
+		position: absolute;
+		width: 40px; 
+		height: 40px;
+		left: -30px;
+		top: 30%;
+		background: url(../img/ah-arrleft.png) center center no-repeat;
+	}
+	.arrow-right{
+		display: block;
+		position: absolute;
+		width: 40px; 
+		height: 40px;
+		right: -30px;
+		top: 30%;
+		background: url(../img/ah-arright.png) center center no-repeat;
+	}
 }
 
 
