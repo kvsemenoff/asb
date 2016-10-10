@@ -145,7 +145,7 @@
 	}
 	.ab-padding{
 		margin-top:0;
-		padding-bottom: 50%;
+		padding-bottom: 50.85%;
 	}
 	.ab-padding-2{
 		padding-bottom: 49%;
@@ -287,7 +287,32 @@
 /*====== all-video =======*/
 
 
-
+.ab-video-all{
+	.ab-vid-txt{
+		padding-top:5px;
+		padding-bottom:25px;
+		span{
+			a{
+			font-family: "Opensans-Semibold";
+			font-size: 14px;
+			color: #FAAD1E;
+			}
+		}
+	}
+	.ab-photo-but-wrap{
+		text-align: center;
+		padding:73px 0;
+		.button-photo{
+			display: inline-block;
+			padding: 10px 78px;
+			border-radius: 4px;
+			background: linear-gradient(to top, #FBB429, #F9A219);
+			font-family: "Opensans-Semibold";
+			font-size: 14px;
+			color: #fff;
+		}
+	}
+}
 
 
 
