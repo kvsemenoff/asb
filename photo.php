@@ -76,11 +76,9 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div class="az-select az-margin-bottom10">
-					<select name="" id="">
-						<option value="1">Добавить в альбом</option>
-					</select>
-				</div>
+				
+					<a class="button-1" href="#">Добавить в альбом</a>
+				
 			</div>
 			<div class="col-md-3">
 				

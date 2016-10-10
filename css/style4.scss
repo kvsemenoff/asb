@@ -318,6 +318,9 @@
 /*====== protokol-3 =======*/
 
 .ab-protokol-3-wrap{
+	a:hover{
+		text-decoration: underline;
+	}
 	.ab-video-t{
 		padding-bottom:26px;
 		padding-top:17px !important;
@@ -409,12 +412,33 @@
 }
 
 .ab-bg-extra{
-		background:#F6F9FA;
-		.ab-rasst{
-			padding-bottom:52px;
-		}
+	background:#F6F9FA;
+	.ab-rasst{
+		padding-bottom:52px;
 	}
+}
 
+.button-1{
+	width:270px;
+	border:2px solid #CBD1D6;
+	display:inline-block;
+	padding: 8px 20px;
+    width: 270px;
+    font-family: "Opensans-Semibold";
+	font-size: 14px;
+	color: #2E2F30;
+	position:relative;
+
+}
+.button-1:after{
+	position:absolute;
+	content:"";
+	background:url(../img/kr-krest.png);
+	width:14px;
+	height:14px;
+	right:17px;
+	top:10px;
+}
 
 @media only screen and (min-width : 320px) {
 
