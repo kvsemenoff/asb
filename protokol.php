@@ -53,10 +53,6 @@
 
 				</div>
 				<div class="col-md-8">
-					
-
-					
-
 					<div class="clear"></div>
 					<table >
 						<tr class="bg_color1" >
