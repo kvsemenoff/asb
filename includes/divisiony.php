@@ -3,8 +3,8 @@
 		<div class="row">
 			<div class="col-md-8 az-padding-top50 az-md-padding-right30">
 				<h2 class="az-left">Дивизионы</h2>
-				<div id="az-select2" class="az-select az-right az-select_style az-margin-bottom10">
-					<select name="" id="">
+				<div class="az-select az-right az-select_style az-margin-bottom10">
+					<select>
 						<option value="1">Санкт-Петербург</option>
 						<option value="2">Москва</option>
 						<option value="3">Красноярск</option>
@@ -223,37 +223,4 @@
 		</div>
 	</div>
 </section>
-<script>
-$(document).ready(function(){
-	var select = $('#az-select2');
 
-	var option = select.find('select option');
-	var str = '<div class="az-options">';
-	for(var i=0; i<option.length; i++){
-		str+= '<div data-val="' +option.eq(i).val() + '">' + option.eq(i).text() + '</div>'
-	}
-	str+= '</div>';
-	select.html(select.html() + str);
-
-	select.click(function(){
-		select.find('.az-options').slideToggle(0);
-		select.toggleClass('az-select-focus');
-	});
-
-	select.find('select').mousedown(function(){
-		return false;
-	});
-	select.mouseup(function(){
-		select.find('select').focus();
-	});
-	select.find('.az-options div[data-val]').click(function(){
-		select.find('select').val($(this).attr('data-val'));
-	});
-	select.find('select').focusout(function(){
-		if(!select.is(':hover')){
-			select.find('.az-options').slideUp(0);
-			select.removeClass('az-select-focus');
-		}
-	});
-});
-</script>

@@ -5,7 +5,7 @@
 				<h2>результаты</h2>
 			</div>
 			<div class="col-md-4">
-				<div id="az-select" class="az-select az-margin-bottom10">
+				<div class="az-select az-margin-bottom10">
 					<select name="" id="">
 						<option value="1">Лига Белова</option>
 						<option value="2">Лига Петрова</option>
@@ -148,30 +148,3 @@
 		</div>
 	</div>
 </section>
-<script>
-$(document).ready(function(){
-	var select = $('#az-select');
-
-	var option = select.find('select option');
-	var str = '<div class="az-options">';
-	for(var i=0; i<option.length; i++){
-		str+= '<div data-val="' +option.eq(i).val() + '">' + option.eq(i).text() + '</div>'
-	}
-	str+= '</div>';
-	select.html(select.html() + str);
-
-	select.click(function(){
-		select.find('.az-options').slideToggle(0);
-		select.toggleClass('az-select-focus');
-	});
-	select.find('select').mouseup(function(){
-		return false;
-	});
-	select.find('select').mousedown(function(){
-		return false;
-	});
-	select.find('.az-options div[data-val]').click(function(){
-		select.find('select').val($(this).attr('data-val'));
-	});
-});
-</script>
