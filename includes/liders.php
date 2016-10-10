@@ -7,7 +7,7 @@
 				<div class="clearfix"></div>
 			</div>
 			<div class="col-md-3">
-				<div id="az-select3" class="az-select az-margin-bottom10">
+				<div class="az-select az-margin-bottom10">
 					<select name="" id="">
 						<option value="1">Вся лига</option>
 						<option value="2">Северный дивизион</option>
@@ -16,7 +16,7 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div id="az-select4" class="az-select az-margin-bottom10">
+				<div class="az-select az-margin-bottom10">
 					<select name="" id="">
 						<option value="1">Очки в среднем за игру</option>
 						<option value="2">Передачи в среднем за игру</option>
@@ -163,82 +163,4 @@
 		</div>
 	</div>
 </section>
-<script>
-$(document).ready(function(){
-	var select = $('#az-select3');
 
-	var option = select.find('select option');
-	var str = '<div class="az-options">';
-	for(var i=0; i<option.length; i++){
-		str+= '<div data-val="' +option.eq(i).val() + '">' + option.eq(i).text() + '</div>'
-	}
-	str+= '</div>';
-	select.html(select.html() + str);
-
-	select.click(function(){
-		select.find('.az-options').slideToggle(0);
-		select.toggleClass('az-select-focus');
-	});
-
-	select.find('select').mousedown(function(){
-		return false;
-	});
-	select.mouseup(function(){
-		select.find('select').focus();
-	});
-	select.find('.az-options div[data-val]').click(function(){
-		select.find('select').val($(this).attr('data-val'));
-	});
-	select.find('select').focusout(function(){
-		if(!select.is(':hover')){
-			select.find('.az-options').slideUp(0);
-			select.removeClass('az-select-focus');
-		}
-	});
-	
-
-
-	var select2 = $('#az-select4');
-
-	var option2 = select2.find('select option');
-	var str2 = '<div class="az-options">';
-	for(var i=0; i<option2.length; i++){
-		str2+= '<div data-val="' +option2.eq(i).val() + '">' + option2.eq(i).text() + '</div>'
-	}
-	str2+= '</div>';
-	select2.html(select2.html() + str2);
-
-	select2.click(function(){
-		select2.find('.az-options').slideToggle(0);
-		select2.toggleClass('az-select-focus');
-		// alert(2);
-		// alert(1);
-		// alert(select2.find('select').is(':focus'));
-	});
-
-	select2.find('select').mousedown(function(){
-		return false;
-	});
-
-	select2.click(function(){
-		// if(!select2.find('select').is(':focus')){
-			select2.find('select').focus();
-		// } 
-		
-	});
-
-	select2.find('.az-options div[data-val]').click(function(){
-		select2.find('select').val($(this).attr('data-val'));
-	});
-	select2.find('select').focusout(function(){
-		if(!select2.is(':hover')){
-
-			select2.find('.az-options').slideUp(0);
-			select2.removeClass('az-select-focus');
-			// alert(select2.find('select').is(':focus'));
-			// alert(1);
-		}
-	});
-
-});
-</script>
