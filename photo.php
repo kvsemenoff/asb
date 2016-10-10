@@ -7,6 +7,7 @@
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/wow/animate.css">
@@ -44,7 +45,7 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-md-3">
-				<div id="az-select" class="az-select az-margin-bottom10">
+				<div class="az-select az-margin-bottom10">
 					<select name="" id="">
 						<option value="1">Все</option>
 						<option value="2">Лига Петрова</option>
@@ -60,7 +61,7 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div id="az-select" class="az-select az-margin-bottom10">
+				<div class="az-select az-margin-bottom10">
 					<select name="" id="">
 						<option value="1">Сезон 2015/2016</option>
 						<option value="2">Сезон 2014/2015</option>
@@ -75,7 +76,7 @@
 				</div>
 			</div>
 			<div class="col-md-3">
-				<div id="az-select" class="az-select az-margin-bottom10">
+				<div class="az-select az-margin-bottom10">
 					<select name="" id="">
 						<option value="1">Добавить в альбом</option>
 					</select>
@@ -446,48 +447,6 @@
 		</div>
 	</div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<?php require_once('includes/footer.php'); ?>
-<script>
-$(document).ready(function(){
-	var select = $('#az-select');
-
-	var option = select.find('select option');
-	var str = '<div class="az-options">';
-	for(var i=0; i<option.length; i++){
-		str+= '<div data-val="' +option.eq(i).val() + '">' + option.eq(i).text() + '</div>'
-	}
-	str+= '</div>';
-	select.html(select.html() + str);
-
-	select.click(function(){
-		select.find('.az-options').slideToggle(0);
-		select.toggleClass('az-select-focus');
-	});
-	select.find('select').mouseup(function(){
-		return false;
-	});
-	select.find('select').mousedown(function(){
-		return false;
-	});
-	select.find('.az-options div[data-val]').click(function(){
-		select.find('select').val($(this).attr('data-val'));
-	});
-});
-</script>
-	
+<?php require_once('includes/footer.php'); ?>
 </body>
 </html>
