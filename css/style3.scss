@@ -343,7 +343,9 @@ h2{
 	#tab_1:checked  ~ #tab_l1,
 	#tab_2:checked  ~ #tab_l2,
 	#tab_3:checked  ~ #tab_l3,
-	#tab_4:checked  ~ #tab_l4
+	#tab_4:checked  ~ #tab_l4,
+	#tab_5:checked  ~ #tab_l5,
+	#tab_6:checked  ~ #tab_l6
 	{
 	    // background: #f0deb4;
 	    color: #0099cc;
@@ -355,7 +357,9 @@ h2{
 	#tab_1:checked  ~ #tab_l1:before,
 	#tab_2:checked  ~ #tab_l2:before,
 	#tab_3:checked  ~ #tab_l3:before,
-	#tab_4:checked  ~ #tab_l4:before
+	#tab_4:checked  ~ #tab_l4:before,
+	#tab_5:checked  ~ #tab_l5:before,
+	#tab_6:checked  ~ #tab_l6:before
 	{
 		content: '';
 		position: absolute;
@@ -394,7 +398,9 @@ h2{
 	#tab_1:checked ~ .tabs_cont #tab_c1,
 	#tab_2:checked ~ .tabs_cont #tab_c2,
 	#tab_3:checked ~ .tabs_cont #tab_c3,
-	#tab_4:checked ~ .tabs_cont #tab_c4 {
+	#tab_4:checked ~ .tabs_cont #tab_c4,
+	#tab_5:checked ~ .tabs_cont #tab_c5,
+	#tab_6:checked ~ .tabs_cont #tab_c6 {
 	    position: static;
 	    left: 0;
 	    opacity: 1;
@@ -402,13 +408,15 @@ h2{
 	}
 	.tabs_cont{
 		padding-top: 25px;
-
 	}
 	.tab-span{
 		font-family: "OpenSans-Regular";
 		font-size: 16px;
 		color: #000;
 		letter-spacing: 0.02em;
+	}
+	.tabs_cont_style2{
+		margin-top: 40px;
 	}
 /**********tabs*********/
 
@@ -448,6 +456,14 @@ h2{
 	float: left;
 	// outline: 1px solid red;
 	// height: 20px;
+}
+.az-col4{
+	width: 497px;
+	float: left;
+}
+.az-col5{
+	width: 225px;
+	float: left;
 }
 /*lenta*/
 .az-back{
@@ -536,6 +552,71 @@ h2{
 }
 /*leader*/
 
+/*season*/
+.az-quest{
+	display: inline-block;
+	width: 31px;
+	height: 31px;
+	background: #dff2f8 url(../img/az-quest.gif) no-repeat center center;
+	cursor: pointer;
+	vertical-align: -7%;
+	margin: 0 5px;
+	position: relative;
+	.az-tpopup{
+		display: none;
+	}
+}
+.az-quest:hover{
+	.az-tpopup{
+		position: absolute;
+		display: block;
+		bottom: calc(100% + 10px);
+		left: -12px;
+		padding: 20px;
+		min-width: 218px;
+		border-radius: 2px;
+		background: rgba(0,0,0,0.8);
+		text-align: left;
+		z-index: 9;
+		.az-title{
+			display: block;
+			font-family: "OpenSans-Semibold";
+			font-size: 16px;
+			color: #fff;
+			letter-spacing: 0.02em;
+			margin-bottom: 25px;
+		}
+		.az-text{
+			display: block;
+			font-family: "OpenSans-Italic";
+			font-size: 14px;
+			color: #fff;
+			letter-spacing: 0.02em;
+			text-transform: none;
+		}
+	}
+}
+.az-quest:hover:before{
+	content: '';
+	position: absolute;
+	display: block;
+	bottom: calc(100% + 3px);
+	right: 50%;
+	transform: translate(50%, 0);
+	width: 0px;
+	height: 0px;
+	border-top: 7px solid rgba(0,0,0,0.8);
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+}
+.season-content{
+	width: 1219px;
+}
+
+
+/*season*/
+
+
 
 
 /*margins*/
@@ -545,6 +626,9 @@ h2{
 .az-margin-top20{
 	margin-top: 20px;
 	display: inline-block;
+}
+.az-margin-top20-2{
+	margin-top: 20px;
 }
 .az-margin-bottom25{
 	margin-bottom: 25px;
