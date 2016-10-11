@@ -299,6 +299,29 @@
 
 
 .ab-video-all{
+	.all-vid-wrap{
+		.button-you-tube{
+			display: inline-block;
+			position:relative;
+		}
+		.button-you-tube:after{
+			content: "";
+			width: 54px;
+			height: 41px;
+			background:black url(../img/atr.png) no-repeat left 21px center;
+			opacity: 0.7;
+			border-radius:10px;
+			transition: 0.1s;
+			position:absolute;
+			bottom:59px;
+			left:112px;
+		}
+		.button-you-tube:hover:after{
+			background:#E62117 url(../img/atr.png) no-repeat left 21px center;
+			opacity: 1;
+		}
+		
+	}
 	.ab-vid-txt{
 		padding-top:5px;
 		padding-bottom:25px;
@@ -436,7 +459,7 @@
 	width:270px;
 	border:2px solid #CBD1D6;
 	display:inline-block;
-	padding: 8px 20px;
+	padding: 8.7px 20px !important;
     width: 270px;
     font-family: "Opensans-Semibold";
 	font-size: 14px;
