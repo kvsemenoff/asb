@@ -139,7 +139,7 @@ h1 {
     color: #e09b1b; }
 
 .bg_td {
-  background: rgba(221, 226, 232, 0.45); }
+  background: rgba(221, 226, 232, 0.5); }
 
 .tabel_prototip tr td:nth-child(2) {
   font-weight: bolder;
@@ -156,7 +156,8 @@ h1 {
   background: #666666;
   color: #E09B1B;
   font: 14px/0.5 normal;
-  padding: 13px 0; }
+  padding: 13px 0;
+  font-family: "Opensans-Regular"; }
 
 .tabel_prototip td:first-child {
   color: #97a3ad;
@@ -164,17 +165,21 @@ h1 {
 
 .tabel_prototip tr:first-child {
   font-weight: bold;
-  font-size: 14px;
-  font-family: "Opensans-Semibold"; }
+  font: 14px "Opensans-Semibold"; }
 
 .tabel_prototip tr:last-child {
   font-weight: bold;
-  font-size: 14px;
-  font-family: "Opensans-Semibold"; }
+  font: 14px "Opensans-Semibold"; }
 
 .tabel_prototip .bg_td2 {
   background: #e4e9ed;
   font-weight: bold; }
+
+.tabel_prototip .end_table td:nth-child(2n+5) {
+  background: #616161; }
+
+.tabel_prototip .end_table td:nth-child(2) {
+  background: #616161; }
 
 /*# sourceMappingURL=style5.css.map */
 
