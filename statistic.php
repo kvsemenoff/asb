@@ -96,7 +96,7 @@
 					<span class="points">Очки за игру (Минимально игр: 2)</span>
 					<table class="table_statistic" >
 						<tr class="bg_color1" >
-							<td>#</td>						
+							<td class="ab-simbol">№</td>						
 							<td>Игрок</td>
 							<td>Команда</td>						
 							<td>Игр</td>

@@ -10,14 +10,20 @@
 	background: url(../img/bulb.png) no-repeat center;
 	width: 100%;
 	background-size:cover;
-	height: 242px;
+	min-height: 242px;
+	height:242px;
 	.ab-txt-top{
 		span{
 			font-family: "Opensans-Bold";
             font-size: 17px;
-            color: #fff;
             display: inline-block;
             padding-top: 119px;
+            a{
+            color: #fff;	
+            }
+            a:hover{
+            	text-decoration: underline;
+            }
 		}
 		.ab-txt-bottom{
 			font-family: "Opensans-Bold";
