@@ -95,7 +95,7 @@
 					</div>
 					<div class="clear"></div>
 					<span class="points">Очки за игру (Минимально игр: 2)</span>
-					<table >
+					<table class="table_statistic" >
 						<tr class="bg_color1" >
 							<td>#</td>						
 							<td>Игрок</td>
