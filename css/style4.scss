@@ -62,6 +62,9 @@
 .ab-big-foto {
 	position:relative;
 	margin-bottom: 25px;
+	.ab-ggg{
+		padding-bottom:20px;
+	}
 	.ab-foto-txt{
 		position:absolute;
 		bottom: 10px;
@@ -76,7 +79,7 @@
 			font-family: "Opensans-Bold";
             font-size: 15px;
             color: #fff;
-            display: inline-block;
+            //display: inline-block;
 		}
 		span:nth-child(2n){
 			font-family: "Opensans-Semibold";
