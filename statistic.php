@@ -42,15 +42,15 @@
 				<div class="col-md-12">
 					<h1>СТАТИСТИКА</h1>						
 				</div>
-
+				<div class="clear"></div> 
 				<div class="col-md-12">
-					
-						<ul class="male">
-								<li><a href="#">МУЖЧИНЫ</a></li>
-								<li><a href="#">ЖЕНЩИНЫ</a></li>
-						</ul>
-						<div class="clear"></div> 		
-				
+					<ul class="male">
+						<li><a href="#">МУЖЧИНЫ</a></li>
+						<li><a href="#">ЖЕНЩИНЫ</a></li>
+					</ul>	
+				</div>
+				<div class="clear"></div>
+				<div class="col-md-3">
 					<span class="gamers">
 						<span>По</span>
 						<span><a href="#">5</a></span>
@@ -60,7 +60,8 @@
 						<span><a href="#">100</a></span>
 						<span>игроков</span>
 					</span>
-
+				</div>
+				<div class="col-md-3">
 					<div  class="az-select az-margin-bottom10 az-select">
 						<select name="" id="" > 
 							<option value="1">Лига Белова</option>
@@ -75,13 +76,15 @@
 							<option value="10">Разное</option>
 						</select>						
 					</div>
-
+				</div>	
+				<div class="col-md-3">
 					<div class="az-select az-margin-bottom10 az-select">
 						<select name="" id="" > 
 							<option value="1">Все дивизионы</option>
 						</select>								
 					</div>
-
+				</div>
+				<div class="col-md-3">
 					<div class="az-select az-margin-bottom10 az-select">
 						<select name="" id="" > 
 							<option value="1">Очки за игру</option>
@@ -93,11 +96,13 @@
 							<option value="7">Удачные штрафные за игру</option>	
 						</select>					
 					</div>
+				</div>
 					<div class="clear"></div>
+				<div class="col-md-12">	
 					<span class="points">Очки за игру (Минимально игр: 2)</span>
 					<table class="table_statistic" >
 						<tr class="bg_color1" >
-							<td>#</td>						
+							<td class="ab-simbol">№</td>						
 							<td>Игрок</td>
 							<td>Команда</td>						
 							<td>Игр</td>
@@ -305,8 +310,6 @@
 							<td>24.1</td>
 						</tr>
 					</table>
-					
-					
 				</div>
 			</div>
 		</div>

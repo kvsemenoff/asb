@@ -15,7 +15,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-				<span class="span-table">женщины</span>
+				<span class="span-table span-table-2">женщины</span>
 				<table class="az-table az-table_style az-margin-bottom10">
 					<tr>
 						<td>21.12</td>

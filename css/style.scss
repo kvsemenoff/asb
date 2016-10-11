@@ -2,6 +2,7 @@
 @import "style2.css";
 @import "style3.css";
 @import "style4.css";
+@import "style5.css";
 @import "fonts.css";
 
 h1{
@@ -368,9 +369,21 @@ h1{
         text-align: center;
         padding: 0px !important;
         line-height: 55px;
+        .sub-menu{
+            display: none;
+        }
+        li:hover > .sub-menu{
+            display: block;
+        }
+        .sub-menu{
+            position: absolute;
+            border-radius: 6px;
+        }
         li{
             display: inline-block !important;
             position: relative;
+             position: relative;
+            height: 55px;
             margin-left: -.36em;
             a{
                 display: inline-block !important;
@@ -405,6 +418,29 @@ h1{
             height: 20px;
             background: #4d4e4f;
             top: 10px;
+        }
+        .sub-menu{
+            position: absolute;
+            border-radius: 6px;
+            width: 100%;
+            top: 47px;
+            background: rgba(#2a2c2d, 0.9);
+            padding: 10px 0px;
+            z-index: 100;
+           text-align: left;
+            li{
+                padding: 0px;
+                height: 5px !important;
+
+                display: block;
+                text-align: left;
+                //outline: 1px solid red;
+                
+            }
+            li:before{
+                background: none;
+
+            }
         }
     }
 }
@@ -490,8 +526,7 @@ h1{
   .main-menu{
       
         li{
-            position: relative;
-            height: 55px;
+           
 
 
             a{
@@ -505,29 +540,7 @@ h1{
         li:hover > .sub-menu{
             display: block;
         }
-        .sub-menu{
-            position: absolute;
-            border-radius: 6px;
-            width: 100%;
-            top: 47px;
-            background: rgba(#2a2c2d, 0.9);
-            padding: 10px 0px;
-            z-index: 100;
-           text-align: left;
-            li{
-                padding: 0px;
-                height: 5px !important;
-
-                display: block;
-                text-align: left;
-                //outline: 1px solid red;
-                
-            }
-            li:before{
-                background: none;
-
-            }
-        }
+        
     }
     .pris{
         padding-left: 30px;

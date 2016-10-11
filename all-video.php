@@ -110,28 +110,90 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Открытие АСБ ФЕСТ</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-1.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Открытие АСБ ФЕСТ</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Сборная АСБ Корея-2<br>(матч за 3-е место)</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-2.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-3.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Сборная АСБ на Asia-Pacific<br>University Basketboll Challenge 2016</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-4.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Сборная АСБ на Asia-Pacific<br>University Basketboll Challenge 2016</a></span>
+					</div>
+				</div>	
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-12 col-xs-12">
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-3.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
+					</div>
+				</div>	
+			</div>
+			<div class="col-md-3 col-sm-12 col-xs-12">
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-4.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Сборная АСБ на Asia-Pacific<br>University Basketboll Challenge 2016</a></span>
+					</div>
+				</div>	
+			</div>
+			<div class="col-md-3 col-sm-12 col-xs-12">
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-1.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Открытие АСБ ФЕСТ</a></span>
+					</div>
+				</div>	
+			</div>
+			<div class="col-md-3 col-sm-12 col-xs-12">
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-2.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -139,119 +201,141 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Открытие АСБ ФЕСТ</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-1.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Открытие АСБ ФЕСТ</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Сборная АСБ Корея-2<br>(матч за 3-е место)</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-2.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-3.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Сборная АСБ на Asia-Pacific<br>University Basketboll Challenge 2016</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-4.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Сборная АСБ на Asia-Pacific<br>University Basketboll Challenge 2016</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Открытие АСБ ФЕСТ</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-3.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Сборная АСБ Корея-2<br>(матч за 3-е место)</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-4.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Сборная АСБ на Asia-Pacific<br>University Basketboll Challenge 2016</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-1.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Открытие АСБ ФЕСТ</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Сборная АСБ на Asia-Pacific<br>University Basketboll Challenge 2016</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-2.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
+	
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Открытие АСБ ФЕСТ</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-1.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Открытие АСБ ФЕСТ</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Сборная АСБ Корея-2<br>(матч за 3-е место)</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-2.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-3.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Сборная АСБ на Asia-Pacific<br>University Basketboll Challenge 2016</a></span>
-				</div>
+				<div class="all-vid-wrap">
+					<a class="button-you-tube" href="#">
+					<img class="img-responsive" src="img/fv-4.jpg" alt="">
+					</a>
+					<div class="ab-vid-txt">
+						<span><a href="#">Сборная АСБ на Asia-Pacific<br>University Basketboll Challenge 2016</a></span>
+					</div>
+				</div>	
 			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Открытие АСБ ФЕСТ</a></span>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Сборная АСБ Корея-2<br>(матч за 3-е место)</a></span>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Саммари матча Сборная<br>АСБ-Корея-1(полуфинал)</a></span>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-12 col-xs-12">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed/CobHfkWRkM0?rel=0" frameborder="0" allowfullscreen></iframe>
-				<div class="ab-vid-txt">
-					<span><a href="#">Сборная АСБ на Asia-Pacific<br>University Basketboll Challenge 2016</a></span>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 col-xs-12">
