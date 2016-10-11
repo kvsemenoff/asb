@@ -10,7 +10,7 @@
 	background: url(../img/bulb.png) no-repeat center;
 	width: 100%;
 	background-size:cover;
-	min-height: 242px;
+	height: 242px;
 	.ab-txt-top{
 		span{
 			font-family: "Opensans-Bold";
@@ -38,6 +38,17 @@
 }
 
 /*===== Block Foto =====*/
+
+.ab-index-3{
+	margin-top:0 !important;
+	margin-bottom:10px !important;
+}
+
+.ab-index-1{
+	img{
+		width: 100%;
+	}
+}
 
 .ab-foto-wrap{
 	margin-bottom: 30px;
