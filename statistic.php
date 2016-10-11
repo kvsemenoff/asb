@@ -42,15 +42,14 @@
 				<div class="col-md-12">
 					<h1>СТАТИСТИКА</h1>						
 				</div>
-
+				<div class="clear"></div> 
 				<div class="col-md-12">
-					
-						<ul class="male">
-								<li><a href="#">МУЖЧИНЫ</a></li>
-								<li><a href="#">ЖЕНЩИНЫ</a></li>
-						</ul>
-						<div class="clear"></div> 		
-				
+					<ul class="male">
+						<li><a href="#">МУЖЧИНЫ</a></li>
+						<li><a href="#">ЖЕНЩИНЫ</a></li>
+					</ul>
+					<div class="clear"></div> 		
+
 					<span class="gamers">
 						<span>По</span>
 						<span><a href="#">5</a></span>
@@ -60,7 +59,7 @@
 						<span><a href="#">100</a></span>
 						<span>игроков</span>
 					</span>
-
+				
 					<div  class="az-select az-margin-bottom10 az-select">
 						<select name="" id="" > 
 							<option value="1">Лига Белова</option>
@@ -95,7 +94,7 @@
 					</div>
 					<div class="clear"></div>
 					<span class="points">Очки за игру (Минимально игр: 2)</span>
-					<table >
+					<table class="table_statistic" >
 						<tr class="bg_color1" >
 							<td>#</td>						
 							<td>Игрок</td>
@@ -305,8 +304,6 @@
 							<td>24.1</td>
 						</tr>
 					</table>
-					
-					
 				</div>
 			</div>
 		</div>
