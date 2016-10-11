@@ -3,12 +3,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2"></div>
-				   <div class="col-md-8">
-						
+				   <div class="col-md-8">						
 						<div class="table_prot">
 							<h3 class="caption">Ухтинский государственный технический университет</h3>							
-							<table class="tabel_prototip">
-							 	
+							<table class="tabel_prototip">							 	
 								<tr class="first">
 								    <td rowspan="2" class="bg_td"></td>
 								    <td rowspan="2" colspan="3" class="bg_td2">Фамилия</td>
