@@ -110,10 +110,11 @@ h1 {
   font: 13px "OpenSans-Regular";
   padding-bottom: 17px;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  vertical-align: middle; }
 
 .tabel_prototip tr td {
-  padding: 4px 1px; }
+  padding: 4px 4px; }
 
 .caption {
   font-size: 26px;
@@ -125,7 +126,7 @@ h1 {
   font-size: 26px;
   font-family: "Opensans-Semibold";
   color: #E09B1B;
-  margin: 35px 0 15px 0px; }
+  margin: 20px 0 15px 0px; }
 
 .first {
   background: #e4e9eb;
@@ -142,9 +143,9 @@ h1 {
   background: rgba(221, 226, 232, 0.5); }
 
 .tabel_prototip tr td:nth-child(2) {
+  vertical-align: middle;
   font-weight: bolder;
-  font-size: 14px;
-  font-family: "Opensans-Semibold"; }
+  font: 14px "Opensans-Semibold"; }
 
 .tabel_prototip tr td:nth-child(1) {
   background: rgba(221, 226, 232, 0.45); }
@@ -156,7 +157,7 @@ h1 {
   background: #666666;
   color: #E09B1B;
   font: 14px/0.5 normal;
-  padding: 13px 0;
+  padding: 11px 0;
   font-family: "Opensans-Regular"; }
 
 .tabel_prototip td:first-child {
