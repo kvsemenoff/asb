@@ -39,6 +39,7 @@
 
 
 	<?php require_once('includes/season.php'); ?>
+	<?php require_once('includes/season-table.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 </body>
