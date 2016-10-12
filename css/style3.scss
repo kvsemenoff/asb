@@ -422,6 +422,9 @@ h2{
 	.tabs_cont_style2{
 		margin-top: 40px;
 	}
+	.tabs_cont_style3{
+		margin-top: -9px;
+	}
 /**********tabs*********/
 
 
@@ -468,6 +471,18 @@ h2{
 .az-col5{
 	width: 225px;
 	float: left;
+}
+.az-col6{
+	width: 23.5%;
+	// outline: 1px solid red;
+	// height: 50px;
+	float: left;
+}
+.az-margin26{
+	margin-right: 2%;
+}
+.az-margin06{
+	margin-right: 0%;
 }
 /*lenta*/
 .az-back{
@@ -616,14 +631,611 @@ h2{
 .season-content{
 	width: 1219px;
 }
+.tabs__margin3{
+	font-size: 0px;
+	margin-top: 15px;
+}
+.tabs__margin3 label{
+	text-align: center;
+	font-size: 20px;
+    font-family: "OpenSans-Regular";
+    color: #000;
+    text-transform: none;
+    letter-spacing: 0.02em;
+    margin-right: 0px;
+    cursor: pointer;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.tabs__margin3 label:before{
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0px;
+	width: 100%;
+	background: #cbd1d6;
+	height: 2px;
+}
+
 
 
 /*season*/
 
+/*season-item*/
+.season-item1{
+	width: 100%;
+	height: 26px;
+	position: relative;
+	.season-item11, .season-item13{
+		width: 26px;
+		height: 26px;
+	}
+	.season-item11{
+		background: #e7ecee;
+		font-family: "OpenSans-Regular";
+		font-size: 10px;
+		color: #97a3ad;
+		line-height: 26px;
+		text-align: center;
+		float: left;
+	}
+	.season-item12{
+		width: calc(100% - 52px);
+		height: 26px;
+		float: left;
+		background: #eef3f5;
+		padding-left: 4px;
+		padding-top: 5px;
+		.az-span1{
+			color: #050708;
+			font-family: "OpenSans-Semibold";
+			font-size: 9px;
+			display: block;
+			letter-spacing: 0.02em;
+		}
+		.az-span2{
+			color: #666666;
+			font-family: "OpenSans-Semibold";
+			font-size: 7px;
+			display: block;
+			letter-spacing: 0.02em;
+			line-height: 5px;
+		}
+	}
+	.season-item13{
+		background: #d0e0ef;
+		line-height: 26px;
+		text-align: center;
+		float: left;
+		a{
+			font-family: "OpenSans-Semibold";
+			font-size: 10px;
+			color: #999999;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+	}
+}
+.season-item2{
+	width: 100%;
+	height: 26px;
+	position: relative;
+	.season-item11, .season-item13{
+		width: 26px;
+		height: 26px;
+	}
+	.season-item11{
+		background: #f1f3f4;
+		font-family: "OpenSans-Regular";
+		font-size: 10px;
+		color: #97a3ad;
+		line-height: 26px;
+		text-align: center;
+		float: left;
+	}
+	.season-item12{
+		width: calc(100% - 52px);
+		height: 26px;
+		float: left;
+		background: #f9fafb;
+		padding-left: 4px;
+		padding-top: 5px;
+		.az-span1{
+			color: #050708;
+			font-family: "OpenSans-Semibold";
+			font-size: 9px;
+			display: block;
+			letter-spacing: 0.02em;
+		}
+		.az-span2{
+			color: #666666;
+			font-family: "OpenSans-Semibold";
+			font-size: 7px;
+			display: block;
+			letter-spacing: 0.02em;
+			line-height: 5px;
+		}
+	}
+	.season-item13{
+		background: #dff2f8;
+		line-height: 26px;
+		text-align: center;
+		float: left;
+		a{
+			font-family: "OpenSans-Semibold";
+			font-size: 10px;
+			color: #999999;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+	}
+}
+.season-item-line:before{
+	position: absolute;
+	background: #ebebeb;
+	content: '';
+	width: 4px;
+	height: 1px;
+	top: 50%;
+	left: 100%;
+	transform: translate(0, -50%);
+}
+.season-item-line2:before{
+	position: absolute;
+	background: #ebebeb;
+	content: '';
+	width: 4px;
+	height: 1px;
+	top: 50%;
+	right: 100%;
+	transform: translate(0, -50%);
+}
+	// .season-item-line:before{
+	// 	position: absolute;
+	// 	background: #ebebeb;
+	// 	content: '';
+	// 	width: 4px;
+	// 	height: 1px;
+	// 	top: 50%;
+	// 	left: 100%;
+	// 	transform: translate(0, -50%);
+	// }
+.season-couple-item{
+	position: relative;
+
+}
+.season-couple-item:before{
+	position: absolute;
+	background: #ebebeb;
+	content: '';
+	width: 1px;
+	height: calc(100% - 26px);
+	top: 13px;
+	left: calc(100% + 4px);
+	// transform: translate(0, -50%);
+}
+.season-couple-item:after{
+	position: absolute;
+	background: #ebebeb;
+	content: '';
+	width: 5px;
+	height: 1px;
+	top: 50%;
+	left: calc(100% + 5px);
+	// transform: translate(0, -50%);
+}
+.season-couple-item2{
+	position: relative;
+
+}
+.season-couple-item2:before{
+	position: absolute;
+	background: #ebebeb;
+	content: '';
+	width: 1px;
+	height: calc(100% - 26px);
+	top: 13px;
+	right: calc(100% + 4px);
+	// transform: translate(0, -50%);
+}
+.season-couple-item2:after{
+	position: absolute;
+	background: #ebebeb;
+	content: '';
+	width: 5px;
+	height: 1px;
+	top: 50%;
+	right: calc(100% + 5px);
+	// transform: translate(0, -50%);
+}
+.season-title{
+	height: 24px;
+	line-height: 24px;
+	font-family: "OpenSans-Semibold";
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-size: 9px;
+	color: #0099cc;
+	letter-spacing: 0.02em;
+	display: block;
+}
+.season-title_style{
+	text-align: right;
+	position: relative;
+	strong{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+}
+.season-line{
+	position: relative;
+}
+.season-line:before{
+	position: absolute;
+	background: #ebebeb;
+	content: '';
+	width: 1px;
+	height: calc(100% - ((100% - 285px)/2)) ;
+	top: calc((100% - 285px)/4);
+	right: calc(100% + 9px);
+	// transform: translate(0, -50%);
+}
+.season-line2{
+	position: relative;
+}
+.season-line2:before{
+	position: absolute;
+	background: #ebebeb;
+	content: '';
+	width: 1px;
+	height: calc(100% - ((100% - 285px)/2)) ;
+	top: calc((100% - 285px)/4);
+	left: calc(100% + 9px);
+	// transform: translate(0, -50%);
+}
+/*season-item*/
+
+/*season-middle*/
+	.az-season-logo{
+		width: calc(100% - 50px);
+		margin-left: 25px;
+		margin-top: 100px;
+		position: relative;
+		border: 1px solid #cbd1d6;
+		img:first-child{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		img:last-child{
+			opacity: 0;
+			margin: 30px 0;
+		}
+	}
+	.az-superfinal{
+		font-size: 22px;
+		font-family: "OpenSans-Semibold";
+		text-transform: uppercase;
+		color: #e09b1b;
+		letter-spacing: 0.02em;
+		// margin-bottom: 30px;
+		line-height: 87px;
+		height: 87px;
+		display: block;
+		text-align: center;
+	}
+	.az-final{
+		margin-left: 30px;
+		border: 1px solid #cbd1d6;
+		padding: 3px 4px;
+		width: calc(100% - 60px);
+		font-size: 0px;
+		position: relative;
+	}
+	.az-final2{
+		margin-top: 47px;
+		margin-left: 43px;
+		border: 1px solid #cbd1d6;
+		padding: 2px;
+		width: calc(100% - 86px);
+		font-size: 0px;
+	}
+	.az-finalright{
+		width: 120px;
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		left: calc(100% + 2px);
+		border: 1px solid #cbd1d6;
+		padding: 2px;
+		background: #fff;
+		z-index: 3;
+	}
+	.az-finalleft{
+		width: 120px;
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		right: calc(100% + 2px);
+		border: 1px solid #cbd1d6;
+		padding: 2px;
+		background: #fff;
+		z-index: 3;
+	}
 
 
+.season-item3{
+	width: 100%;
+	height: 35px;
+	position: relative;
+	.season-item11, .season-item13{
+		width: 35px;
+		height: 35px;
+	}
+	.season-item11{
+		font-family: "OpenSans-Regular";
+		font-size: 10px;
+		color: #97a3ad;
+		line-height: 35px;
+		text-align: center;
+		float: left;
+	}
+	.season-item12{
+		width: calc(100% - 70px);
+		height: 35px;
+		float: left;
+		padding-left: 7px;
+		padding-top: 7px;
+		.az-span1{
+			color: #050708;
+			font-family: "OpenSans-Semibold";
+			font-size: 11px;
+			display: block;
+			letter-spacing: 0.02em;
+		}
+		.az-span2{
+			color: #666666;
+			font-family: "OpenSans-Semibold";
+			font-size: 8px;
+			display: block;
+			letter-spacing: 0.02em;
+			line-height: 10px;
+		}
+	}
+	.season-item13{
+		line-height: 35px;
+		text-align: center;
+		float: left;
+		a{
+			font-family: "OpenSans-Semibold";
+			font-size: 10px;
+			color: #999999;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+	}
+}
+.season-item4{
+	width: 100%;
+	height: 30px;
+	position: relative;
+	.season-item11, .season-item13{
+		width: 30px;
+		height: 30px;
+	}
+	.season-item11{
+		font-family: "OpenSans-Regular";
+		font-size: 10px;
+		color: #97a3ad;
+		line-height: 30px;
+		text-align: center;
+		float: left;
+	}
+	.season-item12{
+		width: calc(100% - 60px);
+		height: 30px;
+		float: left;
+		padding-left: 7px;
+		padding-top: 7px;
+		.az-span1{
+			color: #050708;
+			font-family: "OpenSans-Semibold";
+			font-size: 9px;
+			display: block;
+			letter-spacing: 0.02em;
+		}
+		.az-span2{
+			color: #666666;
+			font-family: "OpenSans-Semibold";
+			font-size: 9px;
+			display: block;
+			letter-spacing: 0.02em;
+			line-height: 10px;
+		}
+	}
+	.season-item13{
+		line-height: 30px;
+		text-align: center;
+		float: left;
+		a{
+			font-family: "OpenSans-Semibold";
+			font-size: 10px;
+			color: #999999;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+	}
+}
 
+.az-winner{
+	width: calc(100% - 40px);
+	margin-left: 20px;
+	margin-top: 18px;
+	border: 1px solid #cbd1d6;
+	padding: 4px;
+	position: relative;
+	.az-name{
+		text-align: center;
+		width: 100%;
+		height: 100px;
+		border-radius: 2px;
+		background: linear-gradient(to top, #f9a219, #fab429);
+		.az-title{
+			margin-top: 38px;
+			text-align: center;
+			display: inline-block;
+			color: #fff;
+			font-family: "OpenSans-Semibold";
+			font-size: 12px;
+			text-transform: uppercase;
+		}
+		.city{
+			padding-top: 4px;
+			text-align: center;
+			display: block;
+			color: #666666;
+			font-family: "OpenSans-Semibold";
+			font-size: 9px;
+			// text-transform: uppercase;
+		}
+	}
+}
+.az-winner:before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: calc(100% + 1px);
+	transform: translate(-50%, 0);
+	width: 1px;
+	height: 18px;
+	background: #cbd1d6;
+}
+
+.lpr{
+	font-family: "OpenSans-Regular";
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #e09b1b;
+	text-align: center;
+	display: block;
+	margin: 29px 0 21px 0;
+}
+.az-pdf{
+	width: 178px;
+	height: 37px;
+	display: block;
+	margin: 0 auto;
+	background: url(../img/az-print.png) no-repeat top left;
+}
+/*season-middle*/
+
+
+/*third*/
+.third-level{
+	font-family: "OpenSans-Regular";
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #e09b1b;
+	text-align: center;
+	display: block;
+	margin: 29px 0 52px 0;
+	letter-spacing: 0.02em;
+}
+.az-scheme{
+	width: 348px;
+	margin: 0 auto;
+	.season-item5{
+		float: left;
+		width: 150px;
+		margin: 0 12px;
+		.season-item12{
+			width: calc(100% - 26px);
+		}
+	}
+}
+.az-winner2{
+	width: 180px;
+	margin: 50px auto 0 auto;
+	border: none;
+	position: relative;
+	.az-name{
+		height: 50px;
+		.az-title{
+			margin-top: 13px;
+		}
+		.city{
+			padding-top: 0px;
+			color: #333333;
+		}
+	}
+}
+.az-winner2:before{
+	position: absolute;
+	// top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 1px;
+	height: 68px;
+	content: '';
+	background: #d8d8d8;
+	bottom: calc(100% - 4px);
+}
+.az-winner2:after{
+	position: absolute;
+	// top: 0px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 24px;
+	height: 1px;
+	content: '';
+	background: #d8d8d8;
+	bottom: calc(100% + 63px);
+}
 /*margins*/
+.az-margin-top285{
+	margin-top: 285px;
+}
+.az-margin-top149{
+	margin-top: 149px;
+}
+.az-margin-top129{
+	margin-top: 129px;
+}
+.az-margin-top105{
+	margin-top: 105px;
+}
+.az-margin-top47{
+	margin-top: 47px;
+}
+.az-margin-top37{
+	margin-top: 37px;
+}
+.az-margin-top65{
+	margin-top: 65px;
+}
+.az-margin-top15{
+	margin-top: 15px;
+}
+.az-margin-bottom39{
+	margin-bottom: 39px;
+}
+.az-margin-bottom130{
+	margin-bottom: 130px;
+}
+.az-margin-bottom285{
+	margin-bottom: 285px;
+}
+.az-margin-bottom14{
+	margin-bottom: 14px;
+}
 .az-margin-top4{
 	margin-top: 4px;
 }
