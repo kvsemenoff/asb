@@ -1,5 +1,10 @@
 
+@import url(reset.css);
+@import url(style2.css);
+@import url(style3.css);
+@import url(style4.css);
 
+@import url(fonts.css);
 
 /*# sourceMappingURL=style5.css.map */
 
@@ -161,7 +166,7 @@ padding: 11px 0; font-family: "Opensans-Regular"}
 
               //TABLEs SEASON
 
-.table_season tr {  
+.table_season tr{  
   padding-bottom: 10px;
   text-align: left;
   margin: 0 auto;
@@ -174,31 +179,39 @@ padding: 11px 0; font-family: "Opensans-Regular"}
   padding: 8px 35px;
   padding-right: 10px;   
   color:#97a3ad;
-  font:16px  "OpenSans Regular";   
+  font-size:15px;   
+  font-family: "OpenSans-Regular";
 }
 .bg_color_sea1{
   color:#97a3ad;
   background: #e4e9eb; 
 }
 .bg_color_sea2 {
-  background: #eef3f5
+  background: #eef3f5;
  }
 .tabel_season{
-  margin:23px 0;  
+  margin:12px 0;  
+  width:100% !important;
+  font-size:15px ;   
+  font-family: "OpenSans-Regular";
 }
 .cap{
-  font:17px "OpenSans Regular";color:#e09b1b;letter-spacing:0.1em;
+  font:15px "OpenSans-Regular";color:#e09b1b;letter-spacing:0.1em;
+  margin-left:11px;
 }
 .width_name{
-  width:420px;
+  width:330px;
 }
 .bg_color_sea {
-  font-size:16px; font-family: "OpenSans Regular";color:#97a3ad;
+  font-size:16px; font-family: "OpenSans-Regular";color:#97a3ad;
 }
 .tabel_season td:nth-child(2){color:#050708;}
-.tabel_season td:nth-child(1n+3){font: bold 16px  "OpenSans Regular";}
-.tabel_season .bg_color_sea1 td:nth-child(1n){font: normal 16px  "OpenSans Regular"; color:#97a3ad;}
+.tabel_season td:nth-child(1n+3){font: bold 16px  "OpenSans-Regular";}
+.tabel_season .bg_color_sea1 td:nth-child(1n){font: normal 16px  "OpenSans-Regular"; color:#97a3ad;}
 .tabel_season:last-child{margin-bottom: 103px;}
+.tabel_season td:nth-child(5){width:155px;}
+.tabel_season td:nth-child(7){width:135px;}
+.tabel_season td:nth-child(4){width:165px;}
 
 
 
