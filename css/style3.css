@@ -597,6 +597,8 @@ h2 {
       font-size: 9px;
       display: block;
       letter-spacing: 0.02em; }
+    .season-item1 .season-item12 .az-span1:hover {
+      text-decoration: underline; }
     .season-item1 .season-item12 .az-span2 {
       color: #666666;
       font-family: "OpenSans-Semibold";
@@ -644,6 +646,8 @@ h2 {
       font-size: 9px;
       display: block;
       letter-spacing: 0.02em; }
+    .season-item2 .season-item12 .az-span1:hover {
+      text-decoration: underline; }
     .season-item2 .season-item12 .az-span2 {
       color: #666666;
       font-family: "OpenSans-Semibold";
@@ -860,6 +864,8 @@ h2 {
       font-size: 11px;
       display: block;
       letter-spacing: 0.02em; }
+    .season-item3 .season-item12 .az-span1:hover {
+      text-decoration: underline; }
     .season-item3 .season-item12 .az-span2 {
       color: #666666;
       font-family: "OpenSans-Semibold";
@@ -904,6 +910,8 @@ h2 {
       font-size: 9px;
       display: block;
       letter-spacing: 0.02em; }
+    .season-item4 .season-item12 .az-span1:hover {
+      text-decoration: underline; }
     .season-item4 .season-item12 .az-span2 {
       color: #666666;
       font-family: "OpenSans-Semibold";
@@ -1038,6 +1046,9 @@ h2 {
   margin-bottom: 77px; }
 
 /*margins*/
+.az-margin-top106 {
+  margin-top: 106px; }
+
 .az-margin-top285 {
   margin-top: 285px; }
 

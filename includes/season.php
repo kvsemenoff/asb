@@ -588,7 +588,8 @@
 															</div>
 														</div>
 														<!-- <span class="season-title az-margin-top129">Белгород, 11 - 12 апреля</span> -->
-														<div class="season-couple-item az-margin-top129">
+														<span class="season-title az-margin-top106">Белгород, 11 - 12 апреля</span>
+														<div class="season-couple-item ">
 															<div class="season-item1 season-item-line az-margin-bottom130">
 																<div class="season-item11">1</div>
 																<div class="season-item12">
@@ -875,7 +876,8 @@
 															</div>
 														</div>
 														<!-- <span class="season-title az-margin-top129">Белгород, 11 - 12 апреля</span> -->
-														<div class="season-couple-item2 az-margin-top129">
+														<span class="season-title season-title_style az-margin-top106"><strong>Белгород, 11 - 12 апреля</strong></span>
+														<div class="season-couple-item2">
 															<div class="season-item1 season-item-line2 az-margin-bottom130">
 																<div class="season-item13"><a href="#">12</a></div>
 																<div class="season-item12">
